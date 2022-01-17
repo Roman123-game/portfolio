@@ -1,7 +1,7 @@
 
 * {
 font-family: 'Indie Flower', cursive;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
 }
 .navbar-brand {
@@ -16,8 +16,8 @@ font-family: 'Indie Flower', cursive;
   position: absolute;
   width: 100%;
   padding: 20px;
-  display: flex;
-  align-items: baseline;
+
+
 }
 .svg1 {
   margin-top: 20px;
@@ -79,7 +79,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .offcanvas {
-  max-width: 70%;
+  max-width: 75%;
 }
 
 .text-decoration-underline{
