@@ -83,7 +83,8 @@ font-family: 'Indie Flower', cursive;
 }
 
 .text-decoration-underline{
-  color: #0014a8 !important;
+  color: #12DFE7 !important;
+  border-radius: 5px,
 }
 ul li::before {
   content: "\2022";
