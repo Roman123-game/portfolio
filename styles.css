@@ -1,9 +1,9 @@
-
 * {
-font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 20px;
   font-style: normal;
 }
+
 .navbar-brand {
   font-size: 16px;
   font-family: 'Bungee Inline';
@@ -16,16 +16,17 @@ font-family: 'Indie Flower', cursive;
   position: absolute;
   width: 100%;
   padding: 20px;
-
-
 }
+
 .svg1 {
   margin-top: 20px;
 }
-.svg2{
+
+.svg2 {
   margin-top: 80px;
 }
-.svg3{
+
+.svg3 {
   margin-top: 40px;
 }
 
@@ -53,7 +54,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .bi {
-  padding:6px;
+  padding: 6px;
   padding-bottom: 4px;
   font-size: 12px;
   color: #0014a8;
@@ -68,7 +69,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .b:hover {
-  color:#12DFE7 !important;
+  color: #12DFE7 !important;
 }
 
 .b::before {
@@ -83,10 +84,11 @@ font-family: 'Indie Flower', cursive;
   max-width: 75%;
 }
 
-.text-decoration-underline{
+.text-decoration-underline {
   color: #12DFE7 !important;
   border-radius: 5px,
 }
+
 ul li::before {
   content: "\2022";
   color: #0014a8;
@@ -107,14 +109,17 @@ li {
     margin-top: 80px;
     margin-bottom: 10px;
   }
+
   .svg1 {
     margin-top: -80px;
   }
-  .svg2{
+
+  .svg2 {
     margin-top: -120px;
-    margin-left:50px;
+    margin-left: 50px;
   }
-  .svg3{
+
+  .svg3 {
     margin-top: -80px;
     margin-left: 50px;
   }
@@ -127,7 +132,7 @@ li {
 
 #footer {
   position: relative;
-  margin:-20px
+  margin: -20px
 }
 
 #chupchik {
