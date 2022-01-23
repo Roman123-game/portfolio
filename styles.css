@@ -5,7 +5,7 @@ font-family: 'Indie Flower', cursive;
   font-style: normal;
 }
 .navbar-brand {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   -webkit-background-clip: text;
@@ -68,7 +68,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .b:hover {
-  color: #0900ff;
+  color:#12DFE7 !important;
 }
 
 .b::before {
