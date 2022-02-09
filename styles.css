@@ -5,13 +5,16 @@
 }
 
 .navbar-brand {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+margin: 0px !important;
 }
-
+.navbar-expand{
+  --md
+}
 .body {
   position: absolute;
   width: 100%;
