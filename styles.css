@@ -20,15 +20,16 @@
 }
 
 .svg1 {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
-.svg2 {
-  margin-top: 80px;
+#item-2{
+  margin-top: 40px !important;
 }
+
 
 .svg3 {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 .dim {
