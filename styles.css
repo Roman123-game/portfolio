@@ -120,8 +120,11 @@ li {
   }
 
   .svg2 {
-    margin-top: -120px;
+
     margin-left: 50px;
+  }
+  #item-2{
+    margin-top: -200px ;
   }
 
   .svg3 {
