@@ -140,8 +140,11 @@ li {
 }
 #footer {
   position: relative;
- margin: -20px;
-
+ margin:-220px -20px;
+}
+.footer-copyright{
+  background-color: #0014a8;
+  color: white;
 }
 
 #chupchik {
