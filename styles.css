@@ -138,7 +138,7 @@ li {
 }
 /* ///////////////////media frames//////////////////////// */
 #chupchik {
-  animation: bounce 3s infinite alternate ease-in;
+  animation: bounce 1s infinite alternate ease-in-out;
 }
 
 @keyframes bounce {
@@ -147,7 +147,7 @@ li {
   }
 
   100% {
-    transform: translateY(-8px);
+    transform: translateY(-10px);
   }
 }
 
