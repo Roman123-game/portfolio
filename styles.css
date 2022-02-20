@@ -46,10 +46,8 @@
   margin-top: 170px;
   margin-bottom: 170px;
 }
-
 ::-webkit-scrollbar {
   width: 5px;
-  height: .1em;
   background: white;
   border-radius: 15px;
 }
