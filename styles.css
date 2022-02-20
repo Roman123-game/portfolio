@@ -70,16 +70,13 @@
 
 .b:hover {
   color: #12DFE7 !important;
-
 }
 
 .b::before {
-  color: #0900ff;
   border: 1px solid #0014a8;
   border-radius: 15%;
-  padding: 4px;
   margin: 2px;
-  background: #6C757D;
+  background: grey;
   padding: 8px;
   font-size: 14px;
 }
@@ -110,16 +107,19 @@ li {
 
 #footer {
   position: relative;
-  margin:-180px -20px
+  margin: -180px -20px
 }
-.footer-copyright{
+
+.footer-copyright {
   background-color: #0014a8;
-  color:white;
+  color: white;
 }
+
 @media only screen and (max-width: 768px) {
   .how-img {
     order: 2;
   }
+
   .col-md-6 {
     margin-top: 80px;
     margin-bottom: 10px;
@@ -138,11 +138,13 @@ li {
     margin-top: -80px;
     margin-left: 50px;
   }
+
   #footer {
     position: relative;
-    margin:-65px -20px
+    margin: -65px -20px
   }
 }
+
 /* ///////////////////media frames//////////////////////// */
 #chupchik {
   animation: bounce 1s infinite alternate ease-in-out;
