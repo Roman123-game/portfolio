@@ -1,11 +1,12 @@
 * {
   font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
 }
 
 .navbar-brand {
-  font-size: 16px;
+  margin: 0px;
+  font-size: 18px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   -webkit-background-clip: text;
@@ -43,7 +44,6 @@
 
 ::-webkit-scrollbar {
   width: 5px;
-  height: .1em;
   background: white;
   border-radius: 15px;
 }
@@ -81,12 +81,11 @@
 }
 
 .offcanvas {
-  max-width: 75%;
+  max-width: 85%;
 }
 
 .text-decoration-underline {
   color: #12DFE7 !important;
-  border-radius: 5px,
 }
 
 ul li::before {
@@ -104,7 +103,6 @@ li {
   .how-img {
     order: 2;
   }
-
   .col-md-6 {
     margin-top: 80px;
     margin-bottom: 10px;
@@ -138,7 +136,7 @@ li {
   background-color: #0014a8;
   color:white;
 }
-
+/* ///////////////////media frames//////////////////////// */
 #chupchik {
   animation: bounce 3s infinite alternate ease-in;
 }
@@ -171,7 +169,7 @@ li {
   animation: showload2 5s infinite ease-out;
 }
 
-@@-webkit-keyframes showload2 {
+@-webkit-keyframes showload2 {
   0% {
     opacity: 1;
   }
