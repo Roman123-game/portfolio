@@ -1,39 +1,33 @@
 * {
   font-family: 'Indie Flower', cursive;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
 }
 
 .navbar-brand {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0px !important;
 }
 
 .body {
   position: absolute;
   width: 100%;
   padding: 20px;
-
 }
 
 .svg1 {
-  margin-top: 20px !important;
+  margin-top: 20px;
 }
 
-#item-2{
-  margin-top: 40px !important;
-}
 .svg2 {
-  margin-top: 140px !important;
+  margin-top: 80px;
 }
-
 
 .svg3 {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
 
 .dim {
@@ -46,8 +40,10 @@
   margin-top: 170px;
   margin-bottom: 170px;
 }
+
 ::-webkit-scrollbar {
   width: 5px;
+  height: .1em;
   background: white;
   border-radius: 15px;
 }
@@ -85,7 +81,7 @@
 }
 
 .offcanvas {
-  max-width: 85%;
+  max-width: 75%;
 }
 
 .text-decoration-underline {
@@ -110,7 +106,7 @@ li {
   }
 
   .col-md-6 {
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 10px;
   }
 
@@ -119,8 +115,8 @@ li {
   }
 
   .svg2 {
+    margin-top: -120px;
     margin-left: 50px;
-
   }
 
   .svg3 {
@@ -133,17 +129,14 @@ li {
   margin-top: 5px;
   background: #0014a8;
 }
+
 #footer {
   position: relative;
- margin: -20px;
-}
-.footer-copyright{
-  background-color: #0014a8;
-  color: white;
+  margin: -20px
 }
 
 #chupchik {
-  animation: bounce 3s infinite alternate linear;
+  animation: bounce 3s infinite alternate ease-in;
 }
 
 @keyframes bounce {
@@ -157,7 +150,7 @@ li {
 }
 
 #input1 {
-  animation: move 1s infinite alternate linear;
+  animation: move 1s infinite alternate ease-in;
 }
 
 @keyframes move {
@@ -290,11 +283,11 @@ li {
 
 @keyframes showload3 {
   0% {
-  opacity: 1;
+    opacity: 1;
   }
 
   90% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
@@ -358,7 +351,6 @@ li {
   animation: rotateleft 2s infinite alternate ease;
   transform-box: fill-box;
   transform-origin: right;
-  fill: green;
 }
 
 @-webkit-keyframes rotateleft {
@@ -375,7 +367,6 @@ li {
   animation: rotaterigth 2s infinite alternate ease;
   transform-box: fill-box;
   transform-origin: left;
-  fill: green;
 }
 
 @-webkit-keyframes rotaterigth {
