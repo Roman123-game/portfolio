@@ -99,6 +99,19 @@ li {
   list-style: none;
 }
 
+.progress {
+  margin-top: 5px;
+  background: #0014a8;
+}
+
+#footer {
+  position: relative;
+  margin:-220px -20px
+}
+.footer-copyright{
+  background-color: #0014a8;
+  color:white;
+}
 @media only screen and (max-width: 768px) {
   .how-img {
     order: 2;
@@ -121,20 +134,10 @@ li {
     margin-top: -80px;
     margin-left: 50px;
   }
-}
-
-.progress {
-  margin-top: 5px;
-  background: #0014a8;
-}
-
-#footer {
-  position: relative;
-  margin: -20px
-}
-.footer-copyright{
-  background-color: #0014a8;
-  color:white;
+  #footer {
+    position: relative;
+    margin:-65px -20px
+  }
 }
 /* ///////////////////media frames//////////////////////// */
 #chupchik {
