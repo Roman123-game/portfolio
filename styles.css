@@ -134,6 +134,10 @@ li {
   position: relative;
   margin: -20px
 }
+.footer-copyright{
+  background-color: #0014a8;
+  color:white;
+}
 
 #chupchik {
   animation: bounce 3s infinite alternate ease-in;
