@@ -89,15 +89,15 @@
   color: #12DFE7 !important;
 }
 
+li {
+  list-style: none;
+}
+
 ul li::before {
   content: "\2022";
   color: #0014a8;
   display: inline-block;
   width: 1em;
-}
-
-li {
-  list-style: none;
 }
 
 .progress {
