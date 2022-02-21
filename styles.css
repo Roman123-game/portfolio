@@ -9,6 +9,7 @@
   font-size: 18px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
+  background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -58,7 +59,6 @@
   padding-bottom: 4px;
   font-size: 12px;
   color: #0014a8;
-  border: 1px solid #0014a8;
   border-radius: 15%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -72,7 +72,6 @@
 }
 
 .b::before {
-  border: 1px solid #0014a8;
   border-radius: 15%;
   margin: 2px;
   background: #6C757D;
@@ -363,7 +362,7 @@ ul li::before {
   transform-origin: right;
 }
 
-@-webkit-keyframes rotateleft {
+@keyframes rotateleft {
   0% {
     transform: rotate(-45deg);
   }
@@ -379,7 +378,7 @@ ul li::before {
   transform-origin: left;
 }
 
-@-webkit-keyframes rotaterigth {
+@keyframes rotaterigth {
   0% {
     transform: rotate(45deg);
   }
