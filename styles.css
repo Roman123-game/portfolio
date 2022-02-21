@@ -1,20 +1,21 @@
 * {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 22px;
   font-style: normal;
 }
 
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .navbar-brand {
   font-size: 18px;
-  font-family: 'Bungee Inline';
+  font-family: "Bungee Inline";
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
-  background-clip:text;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0px;
-}
-.navbar{
-  background-color: rgba(255, 255,255, 0.9);
 }
 
 .body {
@@ -67,28 +68,28 @@
 }
 
 .bi:hover {
-  color: #12DFE7;
+  color: #12dfe7;
 }
 
 .b:hover {
-  color: #12DFE7 !important;
+  color: #12dfe7 !important;
 }
 
 .b::before {
   border-radius: 15%;
   margin: 2px;
-  background: #6C757D;
+  background: #6c757d;
   padding: 8px;
   font-size: 14px;
 }
 
 .offcanvas {
   max-width: 85%;
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(255, 255, 255);
 }
 
 .text-decoration-underline {
-  color: #12DFE7 !important;
+  color: #12dfe7 !important;
 }
 
 li {
@@ -109,7 +110,7 @@ ul li::before {
 
 #footer {
   position: relative;
-  margin: -180px -20px
+  margin: -180px -20px;
 }
 
 .footer-copyright {
@@ -143,7 +144,7 @@ ul li::before {
 
   #footer {
     position: relative;
-    margin: -65px -20px
+    margin: -65px -20px;
   }
 }
 
@@ -180,7 +181,7 @@ ul li::before {
   animation: showload2 5s infinite ease-out;
 }
 
-@-webkit-keyframes showload2 {
+@keyframes showload2 {
   0% {
     opacity: 1;
   }
@@ -194,13 +195,13 @@ ul li::before {
   animation: change-background 2s linear infinite;
 }
 
-@-webkit-keyframes change-background {
+@keyframes change-background {
   0% {
     fill: none;
   }
 
   10% {
-    fill: #6C63FF;
+    fill: #6c63ff;
   }
 
   100% {
@@ -212,13 +213,13 @@ ul li::before {
   animation: change-background2 2s linear infinite;
 }
 
-@-webkit-keyframes change-background2 {
+@keyframes change-background2 {
   0% {
     fill: none;
   }
 
   35% {
-    fill: #6C63FF;
+    fill: #6c63ff;
   }
 
   100% {
@@ -230,13 +231,13 @@ ul li::before {
   animation: change-background3 2s linear infinite;
 }
 
-@-webkit-keyframes change-background3 {
+@keyframes change-background3 {
   0% {
     fill: none;
   }
 
   50% {
-    fill: #6C63FF;
+    fill: #6c63ff;
   }
 
   100% {
@@ -248,13 +249,13 @@ ul li::before {
   animation: change-background4 2s linear infinite;
 }
 
-@-webkit-keyframes change-background4 {
+@keyframes change-background4 {
   0% {
     fill: none;
   }
 
   75% {
-    fill: #6C63FF;
+    fill: #6c63ff;
   }
 
   100% {
@@ -360,7 +361,10 @@ ul li::before {
   }
 }
 
-#grass1, #grass3, #grass6, #grass8 {
+#grass1,
+#grass3,
+#grass6,
+#grass8 {
   animation: rotateleft 2s infinite alternate ease;
   transform-box: fill-box;
   transform-origin: right;
@@ -376,7 +380,12 @@ ul li::before {
   }
 }
 
-#grass2, #grass4, #grass5, #grass7, #grass9, #grass10 {
+#grass2,
+#grass4,
+#grass5,
+#grass7,
+#grass9,
+#grass10 {
   animation: rotaterigth 2s infinite alternate ease;
   transform-box: fill-box;
   transform-origin: left;
