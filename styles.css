@@ -5,13 +5,15 @@
 }
 
 .navbar-brand {
-  margin: 0px;
   font-size: 18px;
   font-family: 'Bungee Inline';
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.navbar{
+  background-color: rgba(255, 255,255, 0.9);
 }
 
 .body {
@@ -81,6 +83,7 @@
 
 .offcanvas {
   max-width: 85%;
+  background-color: rgb(255, 255, 255); 
 }
 
 .text-decoration-underline {
