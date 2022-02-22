@@ -25,11 +25,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
-<body class="body ">
-  <!--navbar  -->
-  <nav class="navbar navbar-light fixed-top ">
+<body class="body">
+  <nav class="navbar navbar-light bg-light fixed-top" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand m-0" href="">
+      <a class="navbar-brand" id="navbar-brand" href="">
         <img src="./images/rb.png" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
         Roman Broitman
       </a>
@@ -39,50 +38,44 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header text-decoration-underline text-dark" id="item1">
           <h3 class="offcanvas-title text-dark" id="offcanvasNavbarLabel" href="">
-             Navigation
+            Navigation
           </h3>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <il class="nav-item">
               <a class="nav-link" aria-current="page" href="#"></a>
             </il>
             <il class="nav-item  text-dark">
-              <a class="nav-link m-0 p-0" href="#item-1">
+              <a class="nav-link m-1 p-0" href="#item-1">
                 <i class=" b bi-person-check text-dark">
                   Personal Info
                 </i>
               </a>
             </il>
-            <hr class="my-0 mx-4">
             <il class="nav-item">
-              <a class="nav-link m-0 p-0" href="#item-2">
+              <a class="nav-link m-1 p-0" href="#item-2">
                 <i class="b bi-vector-pen text-dark">
                   Education
                 </i>
               </a>
             </il>
-            <hr class="my-0 mx-4">
             <il class="nav-item">
-              <a class="nav-link m-0 p-0" href="#item-3">
+              <a class="nav-link m-1 p-0" href="#item-3">
                 <i class="b bi-mouse3 text-dark">
                   Skills
                 </i>
               </a>
             </il>
-          <hr class="my-0 mx-4">
             <il class="nav-item ">
-              <a class="nav-link m-0 p-0" href="#item-4">
+              <a class="nav-link m-1 p-0" href="#item-4">
                 <i class="b bi-gem text-dark">
                   Projects & Social
                 </i>
               </a>
             </il>
-          <hr class="my-0 mx-4">
           </ul>
-
         </div>
       </div>
     </div>
@@ -306,12 +299,11 @@
                   fill="black" />
                 <path id="Vector_18"
                   d="M497.795 6.07464H480.067C479.721 6.07228 479.39 5.96135 479.146 5.76599C478.902 5.57063 478.765 5.30667 478.765 5.03157C478.765 4.75647 478.902 4.49251 479.146 4.29715C479.39 4.10179 479.721 3.99086 480.067 3.9885H497.795C497.968 3.98732 498.14 4.01344 498.301 4.06533C498.462 4.11722 498.608 4.19386 498.731 4.29084C498.854 4.38781 498.952 4.50319 499.018 4.63033C499.085 4.75746 499.119 4.89384 499.119 5.03157C499.119 5.16931 499.085 5.30568 499.018 5.43281C498.952 5.55995 498.854 5.67534 498.731 5.77231C498.608 5.86929 498.462 5.94593 498.301 5.99782C498.14 6.04971 497.968 6.07582 497.795 6.07464V6.07464Z"
-                  fill="black"  />
+                  fill="black" />
               </g>
               <g id="load2">
                 <path id="Ellipse 91"
-                  d="M31.9742 11.7965C34.2142 11.7965 36.0301 10.3541 36.0301 8.57484C36.0301 6.79557 34.2142 5.35318 31.9742 5.35318C29.7342 5.35318 27.9183 6.79557 27.9183 8.57484C27.9183 10.3541 29.7342 11.7965 31.9742 11.7965Z"
-                  fill="black" />
+                  d="M31.9742 11.7965C34.2142 11.7965 36.0301 10.3541 36.0301 8.57484C36.0301 6.79557 34.2142 5.35318 31.9742 5.35318C29.7342 5.35318 27.9183 6.79557 27.9183 8.57484C27.9183 10.3541 29.7342 11.7965 31.9742 11.7965Z" fill="black" />
                 <path id="Vector_19"
                   d="M497.795 10.2689H480.067C479.719 10.2689 479.385 10.159 479.139 9.9634C478.892 9.76779 478.754 9.50248 478.754 9.22584C478.754 8.9492 478.892 8.6839 479.139 8.48828C479.385 8.29267 479.719 8.18278 480.067 8.18278H497.795C497.968 8.1816 498.14 8.2077 498.301 8.25959C498.462 8.31148 498.608 8.38813 498.731 8.4851C498.854 8.58208 498.952 8.69747 499.018 8.8246C499.085 8.95174 499.119 9.08811 499.119 9.22584C499.119 9.36358 499.085 9.49995 499.018 9.62709C498.952 9.75422 498.854 9.86961 498.731 9.96658C498.608 10.0636 498.462 10.1402 498.301 10.1921C498.14 10.244 497.968 10.2701 497.795 10.2689V10.2689Z"
                   fill="black" />
@@ -321,7 +313,7 @@
                   fill="black" />
                 <path id="Vector_20"
                   d="M497.795 13.8977H480.067C479.721 13.8954 479.389 13.7846 479.145 13.5892C478.901 13.3938 478.764 13.1298 478.764 12.8546C478.764 12.5794 478.901 12.3154 479.145 12.12C479.389 11.9246 479.721 11.8138 480.067 11.8115H497.795C498.141 11.8138 498.473 11.9246 498.717 12.12C498.961 12.3154 499.098 12.5794 499.098 12.8546C499.098 13.1298 498.961 13.3938 498.717 13.5892C498.473 13.7846 498.141 13.8954 497.795 13.8977V13.8977Z"
-                fill="black"/>
+                  fill="black" />
               </g>
               <g id="Group 1">
                 <path id="Vector_21"
@@ -409,12 +401,12 @@
               <path id="grass10" d="M178.7 165.021C178.7 165.021 178.873 162.13 182.415 162.466L178.7 165.021Z" fill="green" />
               <path id="grass9" d="M171.695 165.021C171.695 165.021 171.868 162.13 175.41 162.466L171.695 165.021Z" fill="green" />
               <path id="grass2" d="M108.111 187.732C108.111 187.732 108.284 184.841 111.825 185.177L108.111 187.732Z" fill="green" />
-              <path id="grass5" d="M132.169 187.732C132.169 187.732 132.342 184.841 135.884 185.177L132.169 187.732Z" fill="green"  />
+              <path id="grass5" d="M132.169 187.732C132.169 187.732 132.342 184.841 135.884 185.177L132.169 187.732Z" fill="green" />
               <path id="grass4" d="M125.164 187.732C125.164 187.732 125.337 184.841 128.879 185.177L125.164 187.732Z" fill="green" />
-              <path id="grass6" d="M148.197 165.021C148.197 165.021 148.025 162.13 144.483 162.466L148.197 165.021Z" fill="green"  />
+              <path id="grass6" d="M148.197 165.021C148.197 165.021 148.025 162.13 144.483 162.466L148.197 165.021Z" fill="green" />
               <path id="grass8" d="M163.208 165.221C163.208 165.221 163.035 162.33 159.494 162.666L163.208 165.221Z" fill="green" />
               <path id="grass1" d="M101.667 187.732C101.667 187.732 101.494 184.841 97.9521 185.177L101.667 187.732Z" fill="green" />
-              <path id="grass3" d="M116.677 187.932C116.677 187.932 116.505 185.04 112.963 185.376L116.677 187.932Z" fill="green"  />
+              <path id="grass3" d="M116.677 187.932C116.677 187.932 116.505 185.04 112.963 185.376L116.677 187.932Z" fill="green" />
               <g id="select3">
                 <path id="Vector_20" d="M290.662 52.2021H244.365V55.497H290.662V52.2021Z" fill="#3F3D56" />
                 <path id="Vector_21" d="M290.662 64.3399H244.365V67.6347H290.662V64.3399Z" fill="#3F3D56" />
@@ -545,7 +537,7 @@
         <a href="/certificates/rom_C Advanced.pdf" dowload class="bg-secondary bi bi-briefcase"></a>
         <a href="/certificates/rom_C++ Advanced.pdf" dowload class="bg-secondary bi bi-briefcase"></a>
         <h6 class="subheading m-0 p-0">Projects</h6>
-      <a href="https://tickets-rb.netlify.app/" class="bg-secondary bi bi-award"></a>
+        <a href="https://tickets-rb.netlify.app/" class="bg-secondary bi bi-award"></a>
         <a href="https://port-rb.netlify.app" class="bg-secondary bi bi-award"></a>
       </div>
       <div class="col-md-6 how-img">
@@ -553,15 +545,15 @@
         </model-viewer>
       </div>
     </div>
-  <footer class="page-footer font-small" id="footer">
+    <footer class="page-footer font-small" id="footer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#0014a8" fill-opacity="1"
           d="M0,192L40,165.3C80,139,160,85,240,74.7C320,64,400,96,480,144C560,192,640,256,720,261.3C800,267,880,213,960,181.3C1040,149,1120,139,1200,138.7C1280,139,1360,149,1400,154.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
         </path>
       </svg>
       <div class="footer-copyright text-center py-3">© 2022 All Rights Reserved
-      <div class="footer-copyright text-center py-3">Created by Roman Broitman</div>
-    </div>
+        <div class="footer-copyright text-center py-3">Created by Roman Broitman</div>
+      </div>
     </footer>
   </div>
 </body>
