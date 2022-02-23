@@ -76,10 +76,10 @@
 
 .b::before {
   border-radius: 15%;
-  margin: 2px;
+  margin: 1px;
   background: #6c757d;
   padding: 8px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .offcanvas {
