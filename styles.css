@@ -5,7 +5,11 @@
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.9);
+opacity : 0.9;
+}
+.offcanvas {
+  max-width: 85%;
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar-brand {
@@ -52,6 +56,8 @@
   border-radius: 15px;
 }
 
+
+
 ::-webkit-scrollbar-thumb:hover {
   background: #0014a8;
   border-radius: 15px;
@@ -73,6 +79,7 @@
 
 .b:hover {
   color: #12dfe7 !important;
+
 }
 
 .b::before {
@@ -81,12 +88,9 @@
   background: #6c757d;
   padding: 8px;
   font-size: 12px;
+
 }
 
-.offcanvas {
-  max-width: 85%;
-  background-color: rgb(255, 255, 255);
-}
 
 .text-decoration-underline {
   color: #12dfe7 !important;
