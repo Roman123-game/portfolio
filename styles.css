@@ -68,6 +68,7 @@
 
 .bi:hover {
   color: #12dfe7;
+  box-shadow: unset;
 }
 
 .b:hover {
@@ -89,7 +90,6 @@
 
 .text-decoration-underline {
   color: #12dfe7 !important;
-
 }
 
 li {
