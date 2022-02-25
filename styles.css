@@ -110,13 +110,19 @@ ul li::before {
   margin-top: 5px;
   background: #0014a8;
 }
-
+.progress:hover{
+transform: scale(1.1);
+}
 #footer {
   position: relative;
   margin: -180px -20px;
 }
 
 .footer-copyright {
+  background-color: #0014a8;
+  color: grey;
+}
+.footer-copyright:hover {
   background-color: #0014a8;
   color: white;
 }
@@ -158,11 +164,11 @@ ul li::before {
 
 @keyframes bounce {
   0% {
-    transform: translateY(0px);
+    transform: translate(2px,-2px);
   }
 
   100% {
-    transform: translateY(-10px);
+    transform: translate(-1px,1px);
   }
 }
 
