@@ -110,9 +110,7 @@ ul li::before {
   margin-top: 5px;
   background: #0014a8;
 }
-.progress:hover{
-transform: scale(1.1);
-}
+
 #footer {
   position: relative;
   margin: -180px -20px;
@@ -120,12 +118,9 @@ transform: scale(1.1);
 
 .footer-copyright {
   background-color: #0014a8;
-  color: grey;
+  color:white;
 }
-.footer-copyright:hover {
-  background-color: #0014a8;
-  color: white;
-}
+
 
 @media only screen and (max-width: 768px) {
   .how-img {
@@ -168,15 +163,15 @@ transform: scale(1.1);
   }
 
   100% {
-    transform: translate(-1px,1px);
+    transform: translate(0px,0px);
   }
 }
 
 #input1 {
-  animation: move 1s infinite alternate ease-in;
+  animation: moveBtn 1s infinite alternate ease-in;
 }
 
-@keyframes move {
+@keyframes moveBtn {
   0% {
     transform: translateX(-5px);
   }
@@ -201,7 +196,7 @@ transform: scale(1.1);
 }
 
 #strok1 {
-  animation: change-background 2s linear infinite;
+  animation: change-background 4s linear infinite;
 }
 
 @keyframes change-background {
@@ -219,7 +214,7 @@ transform: scale(1.1);
 }
 
 #strok2 {
-  animation: change-background2 2s linear infinite;
+  animation: change-background2 4s linear infinite;
 }
 
 @keyframes change-background2 {
@@ -237,7 +232,7 @@ transform: scale(1.1);
 }
 
 #strok3 {
-  animation: change-background3 2s linear infinite;
+  animation: change-background3 4s linear infinite;
 }
 
 @keyframes change-background3 {
@@ -255,7 +250,7 @@ transform: scale(1.1);
 }
 
 #strok4 {
-  animation: change-background4 2s linear infinite;
+  animation: change-background4 4s linear infinite;
 }
 
 @keyframes change-background4 {
