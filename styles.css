@@ -5,8 +5,9 @@
 }
 
 .navbar {
-opacity : 0.9;
+  opacity: 0.9;
 }
+
 .offcanvas {
   max-width: 85%;
 }
@@ -79,7 +80,7 @@ opacity : 0.9;
 
 .b:hover {
   color: #12dfe7 !important;
-opacity: unset;
+  opacity: unset;
 }
 
 .b::before {
@@ -119,7 +120,7 @@ ul li::before {
 
 .footer-copyright {
   background-color: #0014a8;
-  color:white;
+  color: white;
 }
 
 
@@ -160,11 +161,11 @@ ul li::before {
 
 @keyframes bounce {
   0% {
-    transform: translate(2px,-2px);
+    transform: translate(2px, -2px);
   }
 
   100% {
-    transform: translate(0px,0px);
+    transform: translate(0px, 0px);
   }
 }
 
