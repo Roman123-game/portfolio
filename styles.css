@@ -314,16 +314,23 @@ ul li::before {
 }
 
 #birds {
-  animation: move_birds 10s infinite alternate ease-in-out;
+  animation: move_birds 20s infinite alternate ease-in-out;
+  transform-box: fill-box;
 }
 
 @keyframes move_birds {
   0% {
-    transform: translateX(-70px);
+    transform: translate(-70px,0px);
+
+  }
+  50%{
+    transform: translate(190px,25px);
+
   }
 
   100% {
-    transform: translateX(60px);
+    transform: rotate(50deg);
+
   }
 }
 
