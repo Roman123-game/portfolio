@@ -59,8 +59,6 @@
   border-radius: 15px;
 }
 
-
-
 ::-webkit-scrollbar-thumb:hover {
   background: #0014a8;
   border-radius: 15px;
@@ -94,7 +92,6 @@
   opacity: unset;
 }
 
-
 .text-decoration-underline {
   color: #12dfe7 !important;
 }
@@ -124,7 +121,6 @@ ul li::before {
   background-color: #0014a8;
   color: white;
 }
-
 
 @media only screen and (max-width: 768px) {
   .how-img {
@@ -320,17 +316,14 @@ ul li::before {
 
 @keyframes move_birds {
   0% {
-    transform: translate(-70px,0px);
-
+    transform: translate(-70px, 0px);
   }
-  50%{
-    transform: translate(190px,25px);
-
+  50% {
+    transform: translate(190px, 25px);
   }
 
   100% {
     transform: rotate(50deg);
-
   }
 }
 
