@@ -5,7 +5,21 @@
   margin: 0px;
   padding: 0px;
 }
+/* 
+.bi.bi-windows{
+  width: 40px;
+  height: 40px;
+  color:none;
+ box-shadow: none;
+ text-shadow: none;
+} */
+.bi-windows:hover{
 
+  background-color: none;
+  background: none;
+
+ 
+}
 .navbar {
   opacity: 0.9;
 }
@@ -110,6 +124,7 @@ ul li::before {
 .progress {
   margin-top: 5px;
   background: #0014a8;
+  height: auto;
 }
 
 #footer {
