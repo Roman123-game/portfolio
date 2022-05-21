@@ -36,10 +36,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+
 .body {
   position: absolute;
   width: 100%;
   padding: 20px;
+
 }
 
 .svg1 {
@@ -125,6 +127,7 @@ ul li::before {
   background: #0014a8;
   height: auto;
 }
+
 .logo{
   margin-left: 10px;
   padding: 2px;
@@ -193,6 +196,19 @@ ul li::before {
     transform: translate(0px, 0px);
   }
 }
+#light{
+  animation: light 1s infinite alternate ease-in;
+}
+@keyframes light {
+  0% {
+    fill: none;
+  }
+
+  100% {
+    fill: lightgreen;
+  }
+}
+
 
 #input1 {
   animation: moveBtn 1s infinite alternate ease-in;
@@ -435,3 +451,5 @@ ul li::before {
     transform: rotate(-45deg);
   }
 }
+
+
