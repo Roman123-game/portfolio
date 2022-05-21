@@ -196,6 +196,19 @@ ul li::before {
     transform: translate(0px, 0px);
   }
 }
+#mobile {
+  animation: mobile 1s infinite alternate ease-in;
+}
+
+@keyframes mobile {
+  0% {
+    fill: none;
+  }
+
+  100% {
+    fill: gold;
+  }
+}
 #light{
   animation: light 1s infinite alternate ease-in;
 }
