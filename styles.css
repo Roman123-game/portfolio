@@ -6,20 +6,20 @@
   padding: 0px;
 }
 
-.win{
+.win {
   margin-left: 10px;
   padding: 2px;
   width: 30px;
   height: 30px;
-  color:none;
- box-shadow: none;
- text-shadow: none;
+  color: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
-.win:hover{
+.win:hover {
   transform: scale(1.3);
 }
-.navbar-toggler{
+.navbar-toggler {
   color: linear-gradient(left, #0014a8, #07efeb);
 }
 
@@ -36,12 +36,10 @@
   -webkit-text-fill-color: transparent;
 }
 
-
 .body {
   position: absolute;
   width: 100%;
   padding: 20px;
-
 }
 
 .svg1 {
@@ -128,17 +126,17 @@ ul li::before {
   height: auto;
 }
 
-.logo{
+.logo {
   margin-left: 10px;
   padding: 2px;
   width: 30px;
   height: 30px;
-  color:none;
- box-shadow: none;
- text-shadow: none;
+  color: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.3);
 }
 
@@ -149,7 +147,6 @@ ul li::before {
 
 .footer-copyright {
   background-color: #0014a8;
-  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -209,7 +206,7 @@ ul li::before {
     fill: gold;
   }
 }
-#light{
+#light {
   animation: light 1s infinite alternate ease-in;
 }
 @keyframes light {
@@ -221,7 +218,6 @@ ul li::before {
     fill: lightgreen;
   }
 }
-
 
 #input1 {
   animation: moveBtn 1s infinite alternate ease-in;
@@ -450,5 +446,3 @@ ul li::before {
     transform: rotate(-45deg);
   }
 }
-
-
