@@ -126,6 +126,7 @@ ul li::before {
 }
 
 .progress {
+  border-radius:25px;
   margin-top: 5px;
   background: #0014a8;
   height: auto;
