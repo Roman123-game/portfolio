@@ -43,12 +43,8 @@ body {
   padding: 20px;
 }
 
-.row .hr {
-  background: #fdfdf9;
-}
-
 .svg1 {
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .svg2 {
@@ -154,6 +150,10 @@ ul li::before {
 
 .logo:hover {
   transform: scale(1.3);
+}
+
+.row .hr {
+  background: #fdfdf9;
 }
 
 #footer {
