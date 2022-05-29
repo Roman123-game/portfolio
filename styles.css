@@ -217,7 +217,7 @@ ul li::before {
   }
 
   100% {
-    fill: gold;
+    fill: rgba(255, 215, 0, 0.5);
   }
 }
 #light {
