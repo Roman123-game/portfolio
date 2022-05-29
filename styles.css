@@ -19,6 +19,7 @@
 .win:hover {
   transform: scale(1.3);
 }
+
 .navbar-toggler {
   color: linear-gradient(left, #0014a8, #07efeb);
 }
@@ -42,7 +43,7 @@ body {
   padding: 20px;
 }
 
-.row .hr{
+.row .hr {
   background: #fdfdf9;
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .svg2 {
-  margin-top: 80px;
+  margin: 100px 100px;
 }
 
 .svg3 {
@@ -92,12 +93,12 @@ body {
 
 .bi:hover {
   color: #12dfe7;
-  box-shadow: unset;
+  box-shadow: none;
 }
 
 .b:hover {
   color: #12dfe7 !important;
-  opacity: unset;
+  opacity: none;
 }
 
 .b::before {
@@ -106,7 +107,7 @@ body {
   background: #6c757d;
   padding: 8px;
   font-size: 16px;
-  opacity: unset;
+  opacity: none;
 }
 
 .text-decoration-underline {
@@ -121,23 +122,24 @@ ul li::before {
   content: "\2022";
   color: #0014a8;
   display: inline-block;
-  width: 1em;
+  width: 1.5em;
   text-shadow: #0014a8 0px 0px 5px;
 }
 
 .progress {
-  border-radius:25px;
+  border-radius: 25px;
   margin-top: 5px;
   background: #0014a8;
   height: auto;
-  -moz-box-shadow:    inset 0 0 10px #000949;
+  -moz-box-shadow: inset 0 0 10px #000949;
   -webkit-box-shadow: inset 0 0 10px #000949;
-  box-shadow:         inset 0 0 10px #000949;
+  box-shadow: inset 0 0 10px #000949;
 }
-.progress-bar{
-  -moz-box-shadow:    inset 0 0 10px #000949;
+
+.progress-bar {
+  -moz-box-shadow: inset 0 0 10px #000949;
   -webkit-box-shadow: inset 0 0 10px #000949;
-  box-shadow:         inset 0 0 10px #000949;
+  box-shadow: inset 0 0 10px #000949;
 }
 
 .logo {
@@ -207,6 +209,7 @@ ul li::before {
     transform: translate(0px, 0px);
   }
 }
+
 #mobile {
   animation: mobile 1s infinite alternate ease-in;
 }
@@ -217,12 +220,14 @@ ul li::before {
   }
 
   100% {
-    fill: rgba(255, 215, 0, 0.5);
+    fill: rgba(255, 215, 0, 0.8);
   }
 }
+
 #light {
   animation: light 1s infinite alternate ease-in;
 }
+
 @keyframes light {
   0% {
     fill: none;
@@ -384,6 +389,7 @@ ul li::before {
   0% {
     transform: translate(-70px, 0px);
   }
+
   50% {
     transform: translate(190px, 25px);
   }
