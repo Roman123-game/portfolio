@@ -24,8 +24,10 @@
   color: linear-gradient(left, #0014a8, #07efeb);
 }
 
+
 .offcanvas {
   max-width: 85%;
+  background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 
 .navbar-brand {
