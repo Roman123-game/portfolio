@@ -92,7 +92,6 @@ body {
 .bi:hover {
   color: #12dfe7;
   box-shadow: none;
-  box-shadow: -1px 0 #12dfe7, 0 1px #12dfe7, 1px 0 #12dfe7, 0 -1px #12dfe7;
 }
 
 .b:hover {
