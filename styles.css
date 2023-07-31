@@ -130,7 +130,6 @@ ul li::before {
 }
 
 .progress {
-  border-radius: 25px;
   margin-top: 5px;
   background: #0014a8;
   height: auto;
@@ -143,6 +142,10 @@ ul li::before {
   -moz-box-shadow: inset 0 0 10px #000949;
   -webkit-box-shadow: inset 0 0 10px #000949;
   box-shadow: inset 0 0 10px #000949;
+}
+
+.degree{
+  margin-left: 200px;
 }
 
 .logo {
