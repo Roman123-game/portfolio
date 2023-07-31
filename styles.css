@@ -204,6 +204,10 @@ ul li::before {
     position: relative;
     margin: -65px -20px;
   }
+  .degree {
+    height:200px;
+    margin:50px
+  }
 }
 
 /* ///////////////////media frames//////////////////////// */
