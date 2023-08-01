@@ -5,6 +5,12 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+
 
 .win {
   margin-left: 10px;
@@ -31,7 +37,8 @@
 }
 
 .navbar-brand {
-  font-size: 18px;
+
+  font-size:26px;
   font-family: 'Kablammo', cursive;
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   background-clip: text;
