@@ -103,7 +103,7 @@ body {
 .b::before {
   border-radius: 15%;
   margin: 1px;
-  background: #6c757d;
+  border: 1px solid lightseagreen;
   padding: 8px;
   font-size: 16px;
   opacity: none;
