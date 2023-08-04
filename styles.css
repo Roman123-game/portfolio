@@ -167,7 +167,7 @@ ul li::before {
 }
 
 .logo:hover {
-  transform: scale(1.3);
+  color : yellow;
 }
 
 .row .hr {
