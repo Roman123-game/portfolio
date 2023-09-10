@@ -61,14 +61,14 @@ body {
 }
 
 .svg3 {
-  margin-top: 150px ;
+  margin-top: 140px ;
 }
 
 .dim {
   width: auto;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 80px;
 }
 
 .col-md-6 {
@@ -249,6 +249,11 @@ margin-bottom: 0;
    .css-chart {
     height: 320px;
   }
+  .dim {
+
+    margin-top: -100px;
+  }
+  
   
 }
 
