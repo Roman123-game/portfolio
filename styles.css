@@ -61,7 +61,7 @@ body {
 }
 
 .svg3 {
-  margin-top: 210px ;
+  margin-top: 170px ;
 }
 .classMar{
 margin-right: 550px;
@@ -140,9 +140,10 @@ ul li::before {
 }
 
 .progress {
-  margin: 8px;
+  margin: 5px;
   background: white;
-  height: auto;
+  height: 30px;
+
   /* -moz-box-shadow: inset 0 0 50px #000949;
   -webkit-box-shadow: inset 0 0 50px #000949;
   box-shadow: inset 0 0 50px #000949; */
@@ -191,7 +192,7 @@ ul li::before {
   border-top: 1px solid;
   border-left: 1px solid;
   /* The height, which is initially defined in the HTML */
-  height: 400px;
+  height: 320px;
   /* A little breathing room should there be others items around the chart */
   margin: 1em;
   /* Remove any padding so we have as much space to work with inside the element */
@@ -238,6 +239,22 @@ ul li::before {
     margin: 1px;
    }
 }
+
+.css-chart {
+  /* The chart borders */
+  border-top: 1px solid;
+  border-left: 1px solid;
+  /* The height, which is initially defined in the HTML */
+  height: 325px;
+  /* A little breathing room should there be others items around the chart */
+  margin: 1em;
+  /* Remove any padding so we have as much space to work with inside the element */
+  padding: 0;
+  position: relative;
+  /* The chart width, as defined in the HTML */
+  width: 200px;
+}
+
 
 /* ///////////////////media frames//////////////////////// */
 #chupchik {
@@ -525,17 +542,3 @@ ul li::before {
   }
 }
 
-.css-chart {
-  /* The chart borders */
-  border-top: 1px solid;
-  border-left: 1px solid;
-  /* The height, which is initially defined in the HTML */
-  height: 400px;
-  /* A little breathing room should there be others items around the chart */
-  margin: 1em;
-  /* Remove any padding so we have as much space to work with inside the element */
-  padding: 0;
-  position: relative;
-  /* The chart width, as defined in the HTML */
-  width: 200px;
-}
