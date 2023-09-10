@@ -442,6 +442,20 @@ ul li::before {
     transform: rotate(50deg);
   }
 }
+#hair{
+  animation: rotate_head 10s infinite alternate  ease-in-out;
+  transform-box: fill-box;
+}
+
+@keyframes rotate_head {
+
+  3%{
+    transform: rotateY(0deg) translateX(0px);
+  }
+  4%,100%{
+    transform: rotateY(180deg) translateX(-18px);
+  }
+}
 
 #select1 {
   animation: fill1 3s infinite alternate ease-in;
