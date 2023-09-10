@@ -234,6 +234,8 @@ ul li::before {
     height:200px;
     margin:180px 50px
    }
+   .progress {
+    margin: 1px;
 }
 
 /* ///////////////////media frames//////////////////////// */
