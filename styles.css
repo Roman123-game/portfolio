@@ -509,7 +509,7 @@ ul li::before {
   padding: 0;
   position: relative;
   /* The chart width, as defined in the HTML */
-  width: 300px;
+  width: 200px;
 }
 
 /* The unordered list holding the data points, no list styling and no spacing */
