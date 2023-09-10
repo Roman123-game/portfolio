@@ -148,9 +148,9 @@ ul li::before {
 
 
 .progress-bar {
-  -moz-box-shadow: inset 0 0 10px #000949;
-  -webkit-box-shadow: inset 0 0 10px #000949;
-  box-shadow: inset 0 0 10px #000949;
+  -moz-box-shadow: inset 40px 0 40px #000949;
+  -webkit-box-shadow: inset 40px 0 40px #000949;
+  box-shadow: inset 40px 0 40px #000949;
 }
 
 .degree {
