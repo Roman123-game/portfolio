@@ -57,11 +57,11 @@ body {
 }
 
 .svg2 {
-  margin: 100px 100px;
+  margin: 100px 50px;
 }
 
 .svg3 {
-  margin-top: 230px ;
+  margin-top: 150px ;
 }
 
 .dim {
@@ -73,7 +73,7 @@ body {
 
 .col-md-6 {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 
 ::-webkit-scrollbar {
@@ -154,6 +154,11 @@ ul li::before {
   box-shadow: inset 40px 0 40px #001191;
 }
 
+.skills_progress{
+  margin-bottom: 0;
+
+}
+
 .logo {
   margin-left: 10px;
   padding: 2px;
@@ -181,8 +186,12 @@ ul li::before {
   background-color: #0014a8;
 }
 .degree{
-  margin-top: 80px;
+  margin-top: -20px;
   margin-left: 100px;
+}
+.skills{
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .css-chart {
