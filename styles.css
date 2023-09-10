@@ -141,9 +141,10 @@ ul li::before {
   margin: 1px;
   background: white;
   height: auto;
-  -moz-box-shadow: inset 0 0 50px #000949;
+  /* -moz-box-shadow: inset 0 0 50px #000949;
   -webkit-box-shadow: inset 0 0 50px #000949;
   box-shadow: inset 0 0 50px #000949;
+} */
 }
 
 .progress-bar {
