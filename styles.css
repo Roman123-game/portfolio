@@ -442,7 +442,7 @@ ul li::before {
     transform: rotate(50deg);
   }
 }
-#hair{
+#hair,#head{
   animation: rotate_head 10s infinite alternate  ease-in-out;
   transform-box: fill-box;
 }
