@@ -458,7 +458,7 @@ margin-bottom: 0;
   }
 }
 #hair,#head{
-  animation: rotate_head 10s infinite alternate  ease-in-out;
+  animation: rotate_head 10s infinite ease;
   transform-box: fill-box;
 }
 
