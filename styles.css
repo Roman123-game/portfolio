@@ -449,10 +449,10 @@ ul li::before {
 
 @keyframes rotate_head {
 
-  3%{
+  49%{
     transform: rotateY(0deg) translateX(0px);
   }
-  4%,100%{
+  50%,100%{
     transform: rotateY(180deg) translateX(-18px);
   }
 }
