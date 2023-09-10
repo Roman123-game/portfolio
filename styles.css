@@ -169,7 +169,7 @@ ul li::before {
 }
 
 .logo:hover {
-  color : yellow;
+  color : lightgreen
 }
 
 .row .hr {
