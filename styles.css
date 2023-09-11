@@ -199,7 +199,7 @@ margin-bottom: 0;
   border-top: 1px solid;
   border-left: 1px solid;
   /* The height, which is initially defined in the HTML */
-  height: 450px;
+  height: 500px;
   /* A little breathing room should there be others items around the chart */
   margin: 1em;
   /* Remove any padding so we have as much space to work with inside the element */
@@ -243,7 +243,7 @@ margin-bottom: 0;
     margin:180px 50px
    }
    .progress {
-    margin: 4px;
+    margin: 1px;
     height: 30px;
    }
    .css-chart {
