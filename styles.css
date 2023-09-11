@@ -187,26 +187,22 @@ ul li::before {
 }
 .degree{
   margin-top: -20px;
-  margin-left: 100px;
+  margin-left: 220px;
 }
 .skills{
 margin-top: 0;
 margin-bottom: 0;
 }
 
-.css-chart {
-  /* The chart borders */
+.css_chart {
   border-top: 1px solid;
   border-left: 1px solid;
-  /* The height, which is initially defined in the HTML */
   height: 500px;
-  /* A little breathing room should there be others items around the chart */
   margin: 1em;
-  /* Remove any padding so we have as much space to work with inside the element */
   padding: 0;
   position: relative;
-  /* The chart width, as defined in the HTML */
   width: 200px;
+
 }
 
 
