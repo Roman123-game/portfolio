@@ -5,12 +5,12 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   position: absolute;
   width: 100%;
   padding: 20px;
 }
-
 
 .win {
   margin-left: 10px;
@@ -30,14 +30,12 @@ body {
   color: linear-gradient(left, #0014a8, #07efeb);
 }
 
-
 .offcanvas {
   max-width: 85%;
   background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 
 .navbar-brand {
-
   font-size:26px;
   font-family: 'Kablammo', cursive;
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
@@ -66,8 +64,6 @@ body {
 
 .dim {
   width: auto;
-  /* justify-content: center;
-  align-items: center; */
   margin-top: 80px;
 }
 
@@ -104,7 +100,6 @@ body {
 .b:hover {
   color: #12dfe7 !important;
   opacity: none;
-
 }
 
 .b::before {
@@ -114,7 +109,6 @@ body {
   padding: 8px;
   font-size: 16px;
   opacity: none;
-
 }
 
 .portfolio {
@@ -141,12 +135,7 @@ ul li::before {
   margin: 8px;
   background: white;
   height: 40px;
-
-  /* -moz-box-shadow: inset 0 0 50px #000949;
-  -webkit-box-shadow: inset 0 0 50px #000949;
-  box-shadow: inset 0 0 50px #000949; */
 }
-
 
 .progress-bar {
   -moz-box-shadow: inset 40px 0 30px #001191;
@@ -156,7 +145,6 @@ ul li::before {
 
 .skills_progress{
   margin-bottom: 0;
-
 }
 
 .logo {
