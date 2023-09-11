@@ -182,9 +182,6 @@ ul li::before {
   margin: -180px -20px;
 }
 
-.footer-copyright {
-  background-color: #0014a8;
-}
 .degree{
   margin-top: -20px;
   margin-left: 220px;
@@ -192,6 +189,10 @@ ul li::before {
 .skills{
 margin-top: 0;
 margin-bottom: 0;
+}
+
+.footer-copyright {
+  background-color: #0014a8;
 }
 
 .css_chart {
@@ -202,9 +203,7 @@ margin-bottom: 0;
   padding: 0;
   position: relative;
   width: 200px;
-
 }
-
 
 @media only screen and (max-width: 768px) {
   .how-img {
