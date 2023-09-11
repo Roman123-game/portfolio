@@ -431,7 +431,7 @@ margin-bottom: 0;
 }
 
 #birds {
-  animation: move_birds 20s infinite alternate ease-in-out;
+  animation: move_birds 20s infinite alternate ease;
   transform-box: fill-box;
 }
 
@@ -449,7 +449,7 @@ margin-bottom: 0;
   }
 }
 #hair,#head{
-  animation: rotate_head 10s infinite ease;
+  animation: rotate_head 10s infinite  alternate ease-in-out;
   transform-box: fill-box;
 }
 
