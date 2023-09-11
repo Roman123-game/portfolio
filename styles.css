@@ -431,7 +431,7 @@ margin-bottom: 0;
 }
 
 #birds {
-  animation: move_birds 20s infinite alternate ease;
+  animation: move_birds 20s infinite;
   transform-box: fill-box;
 }
 
