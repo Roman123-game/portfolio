@@ -192,11 +192,12 @@ margin-bottom: 0;
   margin:auto;
   width:fit-content;
 
+
 }
 .abbr{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
-  font-size: large;
+  font-size: 0.75rem;
 
 }
 .all_citates{
