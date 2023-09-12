@@ -190,7 +190,13 @@ margin-bottom: 0;
 }
 .citate{
   margin:auto;
-  width:fit-content
+  width:fit-content;
+
+}
+.abbr{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+
 }
 .all_citates{
   margin-top: -350px;
