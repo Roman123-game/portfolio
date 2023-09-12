@@ -153,8 +153,27 @@ ul li::before {
   text-shadow: none;
 }
 
-.logo:hover {
-  color : lightgreen
+.one:hover, .six:hover{
+  color:red
+}
+.three:hover,.nine:hover{
+  color: yellow
+}
+.four:hover{
+  color:palevioletred;
+}
+.five:hover{
+  color:lightgreen
+}
+
+.eleven:hover,
+ .two:hover,
+ .seven:hover,
+ .ten:hover{
+  color:lightskyblue
+}
+.eight:hover{
+  color:darkgrey
 }
 
 .row .hr {
