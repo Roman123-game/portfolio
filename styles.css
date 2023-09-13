@@ -156,33 +156,94 @@ ul li::before {
 
 .one:hover,
 .six:hover {
-  color: red
+  animation: hover_icon_one 2s infinite;
+}
+
+@keyframes hover_icon_one{
+  0%,100% {
+    color:red
+  }
+
+  50% {
+    color:rgb(124, 3, 3)
+  }
 }
 
 .three:hover,
 .nine:hover {
-  color: yellow
+  animation: hover_icon_three 2s infinite;
 }
 
-.four:hover {
-  color: palevioletred;
+@keyframes hover_icon_three{
+  0%,100% {
+    color: yellow
+  }
+
+  50% {
+    color:rgb(121, 121, 7)
+  }
+}
+
+.four:hover{
+  animation: hover_icon_four 2s infinite;
+}
+
+@keyframes hover_icon_four{
+  0%,100% {
+    color: palevioletred
+  }
+
+  50% {
+    color: rgb(94, 3, 33)
+  }
 }
 
 .five:hover {
-  color: lightgreen
+  animation: hover_icon_five 2s infinite;
+}
+
+@keyframes hover_icon_five {
+  0%,100% {
+    color: lightgreen
+  }
+
+  50% {
+    color: rgb(5, 128, 5)
+  }
+}
+
+.eight:hover {
+  animation: hover_icon_eight 2s infinite;
+}
+
+@keyframes hover_icon_eight {
+  0%,  100%  {
+  color:  darkgrey
+  }
+
+  50% {
+color: rgb(32, 32, 32)
+  }
+
 }
 
 .eleven:hover,
 .two:hover,
 .seven:hover,
 .ten:hover {
-  color: lightskyblue
+  animation: hover_icon_seven 2s infinite;
 }
 
-.eight:hover {
-  color: darkgrey
-}
+@keyframes hover_icon_seven {
+  0%,100% {
+  color:  lightskyblue
+  }
 
+  50% {
+color: rgb(1, 143, 231);
+  }
+
+}
 .row .hr {
   background: #fdfdf9;
 }
@@ -311,7 +372,25 @@ ul li::before {
 
 }
 
+.:hover {
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  /* background-color: #cccccc; */
+}
 
+@keyframes pulse {
+  0% {
+    background-color: lightblue;
+  }
+
+  50% {
+    background-color: rgb(88, 185, 245);
+  }
+
+  100% {
+    background-color: lightblue;
+  }
+}
 
 /* ///////////////////media frames//////////////////////// */
 /* #chupchik {
