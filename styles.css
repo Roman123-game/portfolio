@@ -326,9 +326,9 @@ margin-bottom: 0;
 }
 
 @keyframes mobile {
-  60% {
+  /* 60% {
     fill: none;
-  }
+  } */
 
   100% {
     fill: lightyellow;
