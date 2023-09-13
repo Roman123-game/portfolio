@@ -198,7 +198,30 @@ margin-bottom: 0;
   background-color: #0014a8;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.685rem;
+  margin-top: 0px;
 }
+.custom-shape-divider-bottom-1694609555 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694609555 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 289px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1694609555 .shape-fill {
+  fill: #0014a8;
+}
+
 
 .css_chart {
   border-top: 1px solid;
