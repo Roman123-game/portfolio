@@ -142,7 +142,7 @@ ul li::before {
   -moz-box-shadow: inset 40px 0 30px #001191;
   -webkit-box-shadow: inset 40px 0 30px #001191;
   box-shadow: inset 40px 0 30px #001191;
-}
+};
 
 .logo {
   margin-left: 10px;
@@ -152,99 +152,10 @@ ul li::before {
   color: none;
   box-shadow: none;
   text-shadow: none;
-}
+};
 
-.one:hover,
-.six:hover {
-  animation: hover_icon_one 2s infinite;
-}
 
-@keyframes hover_icon_one{
-  0%,100% {
-    color:red
-  }
-
-  50% {
-    color:rgb(124, 3, 3)
-  }
-}
-
-.three:hover,
-.nine:hover {
-  animation: hover_icon_three 2s infinite;
-}
-
-@keyframes hover_icon_three{
-  0%,100% {
-    color: yellow
-  }
-
-  50% {
-    color:rgb(121, 121, 7)
-  }
-}
-
-.four:hover{
-  animation: hover_icon_four 2s infinite;
-}
-
-@keyframes hover_icon_four{
-  0%,100% {
-    color: palevioletred
-  }
-
-  50% {
-    color: rgb(94, 3, 33)
-  }
-}
-
-.five:hover {
-  animation: hover_icon_five 2s infinite;
-}
-
-@keyframes hover_icon_five {
-  0%,100% {
-    color: lightgreen
-  }
-
-  50% {
-    color: rgb(5, 128, 5)
-  }
-}
-
-.eight:hover {
-  animation: hover_icon_eight 2s infinite;
-}
-
-@keyframes hover_icon_eight {
-  0%,  100%  {
-  color:  darkgrey
-  }
-
-  50% {
-color: rgb(32, 32, 32)
-  }
-
-}
-
-.eleven:hover,
-.two:hover,
-.seven:hover,
-.ten:hover {
-  animation: hover_icon_seven 2s infinite;
-}
-
-@keyframes hover_icon_seven {
-  0%,100% {
-  color:  lightskyblue
-  }
-
-  50% {
-color: rgb(1, 143, 231);
-  }
-
-}
-.row .hr {
+.row, .hr {
   background: #fdfdf9;
 }
 
@@ -369,43 +280,7 @@ color: rgb(1, 143, 231);
   .all_citates {
     margin-top: -150px;
   }
-
-}
-
-.:hover {
-  transform: scale(1);
-  animation: pulse 2s infinite;
-  /* background-color: #cccccc; */
-}
-
-@keyframes pulse {
-  0% {
-    background-color: lightblue;
-  }
-
-  50% {
-    background-color: rgb(88, 185, 245);
-  }
-
-  100% {
-    background-color: lightblue;
-  }
-}
-
-/* ///////////////////media frames//////////////////////// */
-/* #chupchik {
-  animation: bounce 1s infinite alternate ease-in-out;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translate(2px, -2px);
-  }
-
-  100% {
-    transform: translate(0px, 0px);
-  }
-} */
+};
 
 #hair_two,
 #head_first,
@@ -716,4 +591,95 @@ color: rgb(1, 143, 231);
   100% {
     transform: rotate(-45deg);
   }
+}
+
+.one:hover,
+.six:hover {
+  animation: hover_icon_one 2s infinite;
+}
+
+@keyframes hover_icon_one{
+  0%,100% {
+    color:red
+  }
+
+  50% {
+    color:rgb(124, 3, 3)
+  }
+}
+
+.three:hover,
+.nine:hover {
+  animation: hover_icon_three 2s infinite;
+}
+
+@keyframes hover_icon_three{
+  0%,100% {
+    color: yellow
+  }
+
+  50% {
+    color:rgb(121, 121, 7)
+  }
+}
+
+.four:hover{
+  animation: hover_icon_four 2s infinite;
+}
+
+@keyframes hover_icon_four{
+  0%,100% {
+    color: palevioletred
+  }
+
+  50% {
+    color: rgb(94, 3, 33)
+  }
+}
+
+.five:hover {
+  animation: hover_icon_five 2s infinite;
+}
+
+@keyframes hover_icon_five {
+  0%,100% {
+    color: lightgreen
+  }
+
+  50% {
+    color: rgb(5, 128, 5)
+  }
+}
+
+.eight:hover {
+  animation: hover_icon_eight 2s infinite;
+}
+
+@keyframes hover_icon_eight {
+  0%,  100%  {
+  color:  darkgrey
+  }
+
+  50% {
+color: rgb(32, 32, 32)
+  }
+
+}
+
+.eleven:hover,
+.two:hover,
+.seven:hover,
+.ten:hover {
+  animation: hover_icon_seven 2s infinite;
+}
+
+@keyframes hover_icon_seven {
+  0%,100% {
+  color:  lightskyblue
+  }
+
+  50% {
+color: rgb(1, 143, 231);
+  }
+
 }
