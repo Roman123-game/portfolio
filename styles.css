@@ -277,7 +277,7 @@ margin-bottom: 0;
 
 
 /* ///////////////////media frames//////////////////////// */
-#chupchik {
+/* #chupchik {
   animation: bounce 1s infinite alternate ease-in-out;
 }
 
@@ -289,14 +289,44 @@ margin-bottom: 0;
   100% {
     transform: translate(0px, 0px);
   }
+} */
+
+#hair_two,#head_first,#chupchik,#hair_three{
+  animation: look_up 2s infinite  alternate ease-in-out;
+  transform-box: fill-box;
 }
 
+@keyframes look_up {
+
+  80%{
+    transform: rotateZ(0deg) translate(0,0)
+  }
+  100%{
+    transform: rotateZ(-15deg) translate(-5px,3px) 
+  }
+}
+
+
+#hair_one{
+  animation: hair_up 2s infinite  alternate ease-in-out;
+  transform-box: fill-box;
+}
+
+@keyframes hair_up {
+
+  80%{
+    transform: rotateZ(0deg) translateX(0)
+  }
+  100%{
+    transform: rotateZ(-17deg) translateX(-6px)
+}
+}
 #mobile {
-  animation: mobile 1s infinite alternate ease-in;
+  animation: mobile 2s infinite alternate ease-in;
 }
 
 @keyframes mobile {
-  0% {
+  70% {
     fill: none;
   }
 
@@ -306,11 +336,11 @@ margin-bottom: 0;
 }
 
 #light {
-  animation: light 1s infinite alternate ease-in;
+  animation: light 2s infinite alternate ease-in;
 }
 
 @keyframes light {
-  0% {
+  70% {
     fill: none;
   }
 
@@ -320,7 +350,7 @@ margin-bottom: 0;
 }
 
 #input1 {
-  animation: moveBtn 1s infinite alternate ease-in;
+  animation: moveBtn 2s infinite alternate ease-in;
 }
 
 @keyframes moveBtn {
