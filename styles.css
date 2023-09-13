@@ -200,7 +200,7 @@ margin-bottom: 0;
   font-size: 0.685rem;
   margin-top: 0px;
 }
-.custom-shape-divider-bottom-1694609555 {
+.custom-shape-divider-bottom-1694609817 {
   position: relative;
   bottom: 0;
   left: 0;
@@ -210,16 +210,16 @@ margin-bottom: 0;
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1694609555 svg {
+.custom-shape-divider-bottom-1694609817 svg {
   position: relative;
   display: block;
   width: calc(137% + 1.3px);
-  height: 289px;
+  height: 123px;
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1694609555 .shape-fill {
-  fill: #0014a8;
+.custom-shape-divider-bottom-1694609817 .shape-fill {
+  fill:#0014a8;
 }
 
 
