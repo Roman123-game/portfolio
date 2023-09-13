@@ -292,7 +292,7 @@ margin-bottom: 0;
 } */
 
 #hair_two,#head_first,#chupchik,#hair_three{
-  animation: look_up 2s infinite  alternate ease-in-out;
+  animation: look_up 2s infinite  alternate ease;
   transform-box: fill-box;
 }
 
