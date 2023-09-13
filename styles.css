@@ -146,12 +146,8 @@ ul li::before {
 
 .logo {
   margin-left: 10px;
-  padding: 2px;
   width: 30px;
   height: 30px;
-  color: none;
-  box-shadow: none;
-  text-shadow: none;
 }
 
 
