@@ -490,7 +490,7 @@ margin-bottom: 0;
     transform: rotateY(0deg) translateX(0px);
   }
   50%,100%{
-    transform: rotateY(180deg) translateX(-18px);
+    transform: rotateY(180deg) translateX(-15px);
   }
 }
 
