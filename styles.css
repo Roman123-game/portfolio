@@ -142,7 +142,7 @@ ul li::before {
   -moz-box-shadow: inset 40px 0 30px #001191;
   -webkit-box-shadow: inset 40px 0 30px #001191;
   box-shadow: inset 40px 0 30px #001191;
-};
+}
 
 .logo {
   margin-left: 10px;
@@ -152,10 +152,10 @@ ul li::before {
   color: none;
   box-shadow: none;
   text-shadow: none;
-};
+}
 
 
-.row, .hr {
+.row .hr {
   background: #fdfdf9;
 }
 
@@ -280,7 +280,8 @@ ul li::before {
   .all_citates {
     margin-top: -150px;
   }
-};
+
+}
 
 #hair_two,
 #head_first,
@@ -615,11 +616,11 @@ ul li::before {
 
 @keyframes hover_icon_three{
   0%,100% {
-    color: yellow
+    color: rgb(252, 252, 0)
   }
 
   50% {
-    color:rgb(121, 121, 7)
+    color:rgb(122, 122, 0)
   }
 }
 
@@ -633,7 +634,7 @@ ul li::before {
   }
 
   50% {
-    color: rgb(94, 3, 33)
+    color: rgb(207, 9, 75)
   }
 }
 
