@@ -588,7 +588,7 @@ ul li::before {
   }
 }
 
-.one:hover,
+/* .one:hover,
 .six:hover {
   animation: hover_icon_one 2s infinite;
 }
@@ -677,4 +677,4 @@ color:black
 color: rgb(2, 104, 168);
   }
 
-}
+} */
