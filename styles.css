@@ -661,13 +661,15 @@ color:black
 
 } */
 
-.logo{
-position:absolute;
-transform:rotate(90deg)
+.logo {
+  position: absolute;
+  transform: rotate(90deg)
 }
-.degree{
-  transform:rotate(270deg)
+
+.degree {
+  transform: rotate(270deg)
 }
+
 /* .progress-bar{
   position:absolute
 } */
@@ -687,14 +689,14 @@ transform:rotate(90deg)
 }
 
 @keyframes hover_icon_seven {
-  0%{
-    color:white;
- transform: scale(1) rotate(90deg);
+  0% {
+    color: white;
+    transform: scale(1) rotate(90deg);
   }
 
   100% {
-    color:grey;
-    transform: scale(15)  translateX(50px) translateY(-50px)  rotate(90deg);
+    color: grey;
+    transform: scale(20) translateX(50px) translateY(-50px) rotate(90deg);
   }
 
 
