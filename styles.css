@@ -614,12 +614,13 @@ ul li::before {
 }
 
 @keyframes hover_icon_seven {
-  0% {
+  0%,100% {
     color: white;
     transform: scale(1) rotate(90deg);
   }
-  100% {
+  50% {
     color: grey;
-    transform: scale(15) translateX(50px) translateY(50px) rotate(90deg);
+    transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
   }
+  
 }
