@@ -620,10 +620,10 @@ ul li::before {
   }
   50% {
     color: grey;
-    transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
+    transform: scale(10) translateX(0px) translateY(0px) rotate(90deg);
   }
   100% {
     color: transparent;
-    transform: scale(10) translateX(0px) translateY(0px) rotate(90deg);
+    transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
   }
 }
