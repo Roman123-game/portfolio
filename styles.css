@@ -588,78 +588,6 @@ ul li::before {
   }
 }
 
-/* .one:hover,
-.six:hover {
-  animation: hover_icon_one 2s infinite;
-}
-
-@keyframes hover_icon_one{
-  0%,100% {
-    color:red
-  }
-
-  50% {
-    color:rgb(124, 3, 3)
-  }
-}
-
-.three:hover,
-.nine:hover {
-  animation: hover_icon_three 2s infinite;
-} */
-
-/* @keyframes hover_icon_three{
-  0%,100% {
-    color: rgb(252, 252, 0)
-  }
-
-  50% {
-    color:rgb(122, 122, 0)
-  }
-}
-
-.four:hover{
-  animation: hover_icon_four 2s infinite;
-} */
-
-/* @keyframes hover_icon_four{
-  0%,100% {
-    color: palevioletred
-  }
-
-  50% {
-    color: rgb(207, 9, 75)
-  }
-}
-
-.five:hover {
-  animation: hover_icon_five 2s infinite;
-} */
-
-/* @keyframes hover_icon_five {
-  0%,100% {
-    color: lightgreen
-  }
-
-  50% {
-    color: rgb(5, 128, 5)
-  }
-}
-
-.eight:hover {
-  animation: hover_icon_eight 2s infinite;
-} */
-
-/* @keyframes hover_icon_eight {
-  0%,  100%  {
-  color:  darkgrey
-  }
-
-  50% {
-color:black
-  }
-
-} */
 
 .logo {
   position: absolute;
@@ -670,9 +598,6 @@ color:black
   transform: rotate(270deg)
 }
 
-/* .progress-bar{
-  position:absolute
-} */
 .one:hover,
 .two:hover,
 .three:hover,
