@@ -610,7 +610,7 @@ ul li::before {
 .ten:hover,
 .eleven:hover,
 .ten:hover {
-  animation: hover_icon_seven 8s infinite alternate ease-in;
+  animation: hover_icon_seven 5s infinite alternate ease-in;
 }
 
 @keyframes hover_icon_seven {
@@ -620,6 +620,6 @@ ul li::before {
   }
   100% {
     color: grey;
-    transform: scale(20) translateX(50px) translateY(-50px) rotate(90deg);
+    transform: scale(15) translateX(50px) translateY(50px) rotate(90deg);
   }
 }
