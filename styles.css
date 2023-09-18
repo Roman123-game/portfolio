@@ -693,12 +693,8 @@ color:black
     color: white;
     transform: scale(1) rotate(90deg);
   }
-
   100% {
     color: grey;
     transform: scale(20) translateX(50px) translateY(-50px) rotate(90deg);
   }
-
-
-
 }
