@@ -606,9 +606,9 @@ ul li::before {
 .three:hover,
 .nine:hover {
   animation: hover_icon_three 2s infinite;
-}
+} */
 
-@keyframes hover_icon_three{
+/* @keyframes hover_icon_three{
   0%,100% {
     color: rgb(252, 252, 0)
   }
@@ -620,9 +620,9 @@ ul li::before {
 
 .four:hover{
   animation: hover_icon_four 2s infinite;
-}
+} */
 
-@keyframes hover_icon_four{
+/* @keyframes hover_icon_four{
   0%,100% {
     color: palevioletred
   }
@@ -634,9 +634,9 @@ ul li::before {
 
 .five:hover {
   animation: hover_icon_five 2s infinite;
-}
+} */
 
-@keyframes hover_icon_five {
+/* @keyframes hover_icon_five {
   0%,100% {
     color: lightgreen
   }
@@ -648,9 +648,9 @@ ul li::before {
 
 .eight:hover {
   animation: hover_icon_eight 2s infinite;
-}
+} */
 
-@keyframes hover_icon_eight {
+/* @keyframes hover_icon_eight {
   0%,  100%  {
   color:  darkgrey
   }
@@ -659,22 +659,44 @@ ul li::before {
 color:black
   }
 
-}
+} */
 
-.eleven:hover,
+.logo{
+position:absolute;
+transform:rotate(90deg)
+}
+.degree{
+  transform:rotate(270deg)
+}
+/* .progress-bar{
+  position:absolute
+} */
+.one:hover,
 .two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
 .seven:hover,
+.eight:hover,
+.nine:hover,
+.ten:hover,
+.eleven:hover,
 .ten:hover {
-  animation: hover_icon_seven 2s infinite;
+  animation: hover_icon_seven 8s infinite alternate ease-in;
 }
 
 @keyframes hover_icon_seven {
-  0%,100% {
-  color:  lightskyblue
+  0%{
+    color:white;
+ transform: scale(1) rotate(90deg);
   }
 
-  50% {
-color: rgb(2, 104, 168);
+  100% {
+    color:grey;
+    transform: scale(15)  translateX(50px) translateY(-50px)  rotate(90deg);
   }
 
-} */
+
+
+}
