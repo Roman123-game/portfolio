@@ -180,7 +180,7 @@ ul li::before {
 }
 
 .citate {
-  margin: auto;
+  margin: -20px auto;
   width: fit-content;
 }
 
