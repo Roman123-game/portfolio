@@ -184,6 +184,21 @@ ul li::before {
   width: fit-content;
 }
 
+.citate::before {
+content:open-quote;
+font-family: serif;
+font-weight: 900;
+font-size: 2rem;
+}
+
+.citate::after {
+  content:close-quote;
+  font-family: serif;
+  font-weight: 900;
+  font-size: 2rem;
+  }
+  
+
 .abbr {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
