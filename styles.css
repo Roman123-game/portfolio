@@ -268,8 +268,8 @@ ul li::before {
   }
 
   .progress {
-    margin: 3px;
-    height: 25px;
+    margin: 2px;
+    height: 26px;
   }
 
   .css_chart {
@@ -282,6 +282,10 @@ ul li::before {
 
   .all_citates {
     margin-top: -150px;
+  }
+  .logo{
+    width:20px;
+    height:20px;
   }
 
 }
