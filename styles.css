@@ -283,9 +283,10 @@ ul li::before {
   .all_citates {
     margin-top: -150px;
   }
-  .logo{
-    width:22px;
-    height:22px;
+
+  .logo {
+    width: 22px;
+    height: 22px;
   }
 
 }
@@ -618,14 +619,16 @@ ul li::before {
 }
 
 @keyframes hover_icon_seven {
-  0%{
+  0% {
     color: white;
     transform: scale(1) rotate(90deg);
   }
+
   50% {
     color: grey;
     transform: scale(10) translateX(0px) translateY(0px) rotate(90deg);
   }
+
   100% {
     color: transparent;
     transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
