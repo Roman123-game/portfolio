@@ -184,6 +184,7 @@ ul li::before {
 .citate {
   margin: -20px auto;
   width: fit-content;
+  font-size: 0.86rem;
 }
 
 .citate::before{
@@ -204,7 +205,6 @@ font-size: 2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
   font-size: 0.9rem;
-
 }
 
 .all_citates {
