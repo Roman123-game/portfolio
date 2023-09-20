@@ -178,7 +178,9 @@ ul li::before {
   position: relative;
   width: 250px;
 }
-
+.all_citates{
+  text-align: center;
+}
 .citate {
   margin: -20px auto;
   width: fit-content;
