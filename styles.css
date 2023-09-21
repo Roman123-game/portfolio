@@ -617,18 +617,7 @@ font-size: 2rem;
   }
 }
 
-.one:hover,
-.two:hover,
-.three:hover,
-.four:hover,
-.five:hover,
-.six:hover,
-.seven:hover,
-.eight:hover,
-.nine:hover,
-.ten:hover,
-.eleven:hover,
-.ten:hover {
+.logo:hover {
   animation: hover_icon_seven 5s normal forwards ease-in;
 
 }
