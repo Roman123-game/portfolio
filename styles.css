@@ -206,6 +206,11 @@ font-size: 2rem;
   font-size: 0.875rem;
 }
 
+.abbr:before,
+.copysign{
+  content : '\00A9';
+}
+
 .all_citates {
   margin-top: -350px;
 }
