@@ -457,7 +457,8 @@ font-size: 2rem;
   }
 }
 
-#strok4 {
+#strok4,
+#Vector_12 {
   animation: change-background4 4s linear infinite;
 }
 
