@@ -84,8 +84,6 @@ body {
   margin-bottom: 180px;
 }
 
-
-
 .bi {
   padding: 8px;
   padding-bottom: 4px;
@@ -100,11 +98,6 @@ body {
   }
 
 }
-
-/* .bi:hover {
-  color: #12dfe7;
-  box-shadow: none;
-} */
 
 .b {
   &:hover {
