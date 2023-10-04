@@ -128,9 +128,10 @@ li {
   list-style: none;
 }
 
-.section_il {
-
-  width: 240px;
+.section_il,
+.personal_il {
+ 
+  width: 250px;
   border: 3px solid lightgrey;
   border-radius: 15px;
   margin: 6px 6px;
@@ -138,6 +139,25 @@ li {
   font-size: 22px;
 
 }
+.item_3{
+  margin-top: -190px;
+}
+.item_6{
+  margin-top: 10px;
+}
+.personal_il {
+  align-self: start;
+}
+.personal_grid{
+  display:grid;
+  grid-template-columns: repeat(2,1fr) ;
+  grid-gap: 10px;
+  grid-auto-rows : minmax(50px, auto);
+  align-items: start;
+
+}
+
+
 
 ul li::before {
   content: "\2022";
@@ -327,7 +347,17 @@ ul li::before {
     width: 22px;
     height: 22px;
   }
-
+  .personal_grid{
+    grid-template-columns: 1fr ;
+    justify-content: center;
+    margin-left: -50px;
+  }
+  .item_3{
+    margin-top: 0px;
+  }
+  .item_6{
+    margin-top: 0px;
+  }
 }
 
 #hair_two,
