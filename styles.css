@@ -128,6 +128,10 @@ li {
   list-style: none;
 }
 
+.section_il{
+  background-color: whitesmoke;
+}
+
 .section_il,
 .personal_il {
   width: 250px;
@@ -136,7 +140,6 @@ li {
   margin: 6px 6px;
   padding: 5px 10px;
   font-size: 22px;
-
 }
 .item_3{
   margin-top: -190px;
