@@ -130,7 +130,6 @@ li {
 
 .section_il,
 .personal_il {
- 
   width: 250px;
   border: 3px solid lightgrey;
   border-radius: 15px;
@@ -357,6 +356,9 @@ ul li::before {
   }
   .item_6{
     margin-top: 0px;
+  }
+  .section_il {
+    margin-left: -40px;
   }
 }
 
