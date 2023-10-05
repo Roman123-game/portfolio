@@ -132,6 +132,10 @@ li {
   background-color: whitesmoke;
 }
 
+.personal_il{
+  background-color: rgb(100, 107, 112);
+}
+
 .section_il,
 .personal_il {
   width: 250px;
