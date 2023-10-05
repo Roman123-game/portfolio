@@ -87,7 +87,7 @@ body {
 .bi {
   padding: 8px;
   padding-bottom: 4px;
-  font-size: 12px;
+  font-size: 16px;
   color: lightseagreen;
   border-radius: 15%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -160,10 +160,7 @@ li {
   grid-gap: 10px;
   grid-auto-rows : minmax(50px, auto);
   align-items: start;
-
 }
-
-
 
 ul li::before {
   content: "\2022";
