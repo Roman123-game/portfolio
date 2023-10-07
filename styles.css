@@ -176,7 +176,7 @@ li {
   margin-top: 60px;
 }
 .item_6{
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .personal_il {
   align-self: start;
@@ -729,14 +729,14 @@ ul li::before {
 }
 
 
-/* fliping car */
+/* fliping card */
 
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
   /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /* perspective: 1000px; Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
