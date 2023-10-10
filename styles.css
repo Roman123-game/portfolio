@@ -383,8 +383,17 @@ ul li::before {
     justify-content: center;
     margin-left: -50px;
   }
+  .item_2{
+    margin-top: -110px;
+  }
   .item_3{
-    margin-top: 0px;
+    margin-top: -60px;
+  }
+  .item_4{
+    margin-top: 95px;
+  }
+  .item_5{
+    margin-top: 80px;
   }
   .item_6{
     margin-top: 0px;
