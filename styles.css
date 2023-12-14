@@ -756,6 +756,7 @@ ul li::before {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  transition-duration: 1500ms;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -773,10 +774,10 @@ ul li::before {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  /* background-color: #bbb; */
-  /* color: black; */
-}
+/* .flip-card-front {
+  background-color: #bbb; */
+  /* color: black;
+} */
 
 /* Style the back side */
 .flip-card-back {
