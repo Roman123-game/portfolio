@@ -176,7 +176,7 @@ li {
   margin-top: 60px;
 }
 .item_6{
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .personal_il {
   align-self: start;
@@ -338,7 +338,7 @@ ul li::before {
   }
 
   .svg2 {
-    margin-top: -120px;
+    margin-top: -20px;
     margin-left: 50px;
   }
 
@@ -393,10 +393,10 @@ ul li::before {
     margin-top: 95px;
   }
   .item_5{
-    margin-top: 80px;
+    margin-top: 110px;
   }
   .item_6{
-    margin-top: 0px;
+    margin-top: 60px;
   }
   .section_il {
     margin-left: -40px;
