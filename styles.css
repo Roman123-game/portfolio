@@ -132,16 +132,18 @@ li {
   background-color: whitesmoke;
   display: absolute;
   margin :0px 0px;
+  border-radius: 25px;
 }
 
 .personal_il{
   background-color: rgb(100, 107, 112);
+  border-radius: 15px;
+
 }
 
 .span{
   display: relative;
   overflow: hidden;
-  /* border-right: .10em solid gray; */
   font-size: 0.860rem;
   width: 300px;
   animation: typing 4s forwards infinite;
@@ -161,7 +163,6 @@ li {
 .personal_il {
   width: 270px;
   border: 3px solid lightgrey;
-  border-radius: 15px;
   margin: 6px 6px;
   padding: 5px 10px;
   font-size: 22px;
