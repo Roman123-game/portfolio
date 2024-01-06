@@ -290,7 +290,7 @@ ul li::before {
   background-color: #0014a8;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.685rem;
-  margin-top: 0px;
+  margin-top: -1px;
 }
 
 .custom-shape-divider-bottom-1694609817 {
