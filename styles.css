@@ -1,4 +1,5 @@
 * {
+  scroll-snap-type: y proximity;
   font-family: "Indie Flower";
   font-size: 26px;
   font-style: normal;
@@ -7,7 +8,8 @@
 }
 
 body {
-  position: absolute;
+ 
+  /* position: absolute; */
   width: 100%;
   padding: 20px;
 
@@ -38,7 +40,10 @@ body {
 
 }
 
-
+.hr-scroll{
+  height: 100vh;
+  scroll-snap-align: start;
+}
 
 .navbar-toggler {
   color: linear-gradient(left, #0014a8, #07efeb);
