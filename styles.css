@@ -450,14 +450,11 @@ ul li::before {
 }
 
 @keyframes mobile {
-  60% {
+  0% {
     fill: none;
   }
-
-  100% {
-    fill: lightyellow;
-  }
 }
+
 
 #light {
   animation: light 2s infinite alternate ease-in;
