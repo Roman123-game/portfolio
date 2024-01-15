@@ -143,6 +143,8 @@ li {
 .personal_il{
   background-color: rgb(78, 83, 87);
   border-radius: 15px;
+  /* box-shadow: 3px 0 3px #C8E6FF; */
+  box-shadow: 0px 5px 15px -3px #C8E6FF;
 
 }
 
