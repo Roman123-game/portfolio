@@ -15,10 +15,12 @@ body {
 
   &::-webkit-scrollbar {
     width: 5px;
-    background: white;
     border-radius: 15px;
   }
-
+  &::-webkit-scrollbar-thumb {
+    background: #5f6bc8;
+    border-radius: 15px;
+  }
   &::-webkit-scrollbar-thumb:hover {
     background: #0014a8;
     border-radius: 15px;
