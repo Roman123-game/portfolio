@@ -237,7 +237,7 @@ ul li::before {
 
 .degree {
   margin-top: -60px;
-  margin-left: 180px;
+  margin-left: 150px;
 }
 
 .skills {
@@ -248,10 +248,10 @@ ul li::before {
 .css_chart {
   border-top: 1px solid;
   border-left: 1px solid;
-  height: 600px;
+  height: 650px;
   margin: 1em;
   position: relative;
-  width: 250px;
+  width: 280px;
 }
 
 .all_citates {
