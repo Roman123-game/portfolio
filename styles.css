@@ -26,9 +26,7 @@ body {
     border-radius: 15px;
   }
 }
-#item-1,#item-3,#item-4{
-  margin: 0 40px;
-}
+
 .win {
   margin-left: 10px;
   padding: 2px;
@@ -234,7 +232,7 @@ ul li::before {
 
 #footer {
   position: relative;
-  margin: -90px -20px;
+  margin: -55px -20px;
 }
 
 .degree {
