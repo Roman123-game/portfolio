@@ -26,7 +26,9 @@ body {
     border-radius: 15px;
   }
 }
-
+#item-1,#item-3,#item-4{
+  margin: 0 40px;
+}
 .win {
   margin-left: 10px;
   padding: 2px;
@@ -94,7 +96,7 @@ body {
 .bi {
   padding: 8px;
   padding-bottom: 4px;
-  font-size: 16px;
+  font-size: 20px;
   color: lightseagreen;
   border-radius: 15%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
