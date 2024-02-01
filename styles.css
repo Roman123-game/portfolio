@@ -187,6 +187,21 @@ li {
 .item_6{
   margin-top: 100px;
 }
+.item_1_back{
+  height:80px
+}
+.item_4_back{
+  margin-top: 70px;
+  height:210px
+}
+.item_5_back{
+  margin-top: 100px;
+  height:160px
+}
+.item_6_back{
+  margin-top: 100px;
+  height:180px
+}
 .personal_il {
   align-self: start;
 }
@@ -410,6 +425,7 @@ ul li::before {
   .section_il {
     margin-left: -40px;
   }
+  
 }
 
 #hair_two,
