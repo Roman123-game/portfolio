@@ -107,6 +107,7 @@ body {
 }
 
 .b {
+
   &:hover {
     color: #12dfe7 !important;
     opacity: none;
@@ -118,6 +119,8 @@ body {
     padding: 8px;
     font-size: 16px;
     opacity: none;
+  border: 1px solid black;
+
   }
 
 }
