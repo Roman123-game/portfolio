@@ -57,7 +57,11 @@ body {
   max-width: 85%;
   background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
-
+#navbar{
+  background-image: url(./images/wav.png);
+  background-position: bottom;
+  background-repeat:  repeat-x;
+}
 
 
 .navbar-brand {
