@@ -58,9 +58,9 @@ body {
   background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 #navbar{
-  background-image: url(./images/wav.png);
+  background-image: url(./images/wave.png);
   background-position: bottom;
-  background-repeat:  repeat-x;
+  background-repeat:  repeat;
 }
 
 
