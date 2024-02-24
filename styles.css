@@ -98,7 +98,7 @@ body {
 }
 
 .bi {
-  padding: 8px 12px;
+  padding: 8px 12px 2px 12px;
   font-size: 30px;
   color: lightseagreen;
   border-radius: 15%;
@@ -377,7 +377,7 @@ ul li::before {
 
 @media only screen and (max-width: 768px) {
   .bi {
-    padding: 8px 12px;
+    padding: 8px 8px 2px 8px;
     font-size: 20px;
   }
   .how-img {
