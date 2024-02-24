@@ -370,6 +370,7 @@ ul li::before {
   transform: rotate(90deg)
 }
 
+
 .degree {
   transform: rotate(270deg)
 }
