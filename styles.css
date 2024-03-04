@@ -120,7 +120,7 @@ body {
   &::before {
     border-radius: 15%;
     margin: 1px;
-    padding: 12px 8px;
+    padding: 12px;
     font-size: 16px;
     opacity: none;
     border: 1px solid black;
