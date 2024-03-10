@@ -66,7 +66,9 @@ body {
 
 .navbar-brand {
   font-size: 26px;
-  font-family: 'Kablammo', cursive;
+  font-family: "monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   background-clip: text;
   -webkit-background-clip: text;
