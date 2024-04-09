@@ -177,6 +177,16 @@ li {
   }
 }
 
+.navbar-brand {
+  font-size: 22px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;}
+
+
 .section_il,
 .personal_il {
   width: 270px;
