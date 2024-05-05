@@ -100,10 +100,10 @@ body {
 }
 
 .bi {
-  background-color:#31363F;
+  background-color:#053B50;
   padding: 8px 12px 2px 12px;
   font-size: 30px;
-  color: #76ABAE;
+  color: #64CCC5;
   border-radius: 15%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   &:hover {
