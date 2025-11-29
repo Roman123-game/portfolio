@@ -32,7 +32,7 @@
     entries.forEach(entry => {
       if (entry.isIntersecting) entry.target.classList.add('in-view');
     });
-  }, { threshold: 0.38 });
+  }, { threshold: 0.18 });
 
   revealEls.forEach(el => revealObserver.observe(el));
 
@@ -51,7 +51,7 @@
         });
       }
     });
-  }, { rootMargin: `-${NAV_HEIGHT}px 0px -50% 0px`, threshold: 0.3 });
+  }, { rootMargin: `-${NAV_HEIGHT}px 0px -50% 0px`, threshold: 0.2 });
 
   sections.forEach(s => spyObserver.observe(s));
 
