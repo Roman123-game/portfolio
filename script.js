@@ -32,7 +32,7 @@
     entries.forEach(entry => {
       if (entry.isIntersecting) entry.target.classList.add('in-view');
     });
-  }, { threshold: 0.18 });
+  }, { threshold: 0.38 });
 
   revealEls.forEach(el => revealObserver.observe(el));
 
