@@ -960,3 +960,25 @@ ul li::before {
   max-width: 100%;
   height: auto;
 }
+
+/* Ensure model-viewer renders with a visible box and doesn't collapse */
+model-viewer.dim,
+model-viewer {
+  display: block;
+  width: 100%;
+  height: 420px;
+  min-height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.01));
+  object-fit: contain;
+}
+/* small screens */
+@media (max-width: 768px) {
+  model-viewer.dim,
+  model-viewer {
+    height: 320px;
+    min-height: 220px;
+    margin-top: 8px;
+  }
+}
