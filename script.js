@@ -51,7 +51,7 @@
         });
       }
     });
-  }, { rootMargin: `-${NAV_HEIGHT}px 0px -50% 0px`, threshold: 0.2 });
+  }, { rootMargin: `-${NAV_HEIGHT}px 0px -50% 0px`, threshold: 0.3 });
 
   sections.forEach(s => spyObserver.observe(s));
 
