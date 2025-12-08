@@ -854,10 +854,10 @@ ul li::before {
   }
 }
 
-.logo:hover {
+/* .logo:hover {
   animation: hover_icon_seven 5s normal forwards ease-in;
 
-}
+} */
 
 @keyframes hover_icon_seven {
   0% {
