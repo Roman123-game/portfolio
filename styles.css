@@ -7,8 +7,9 @@
   padding: 0px;
 }
 
-:root{
-  --nav-height: 56px; /* used by JS for scroll offset */
+:root {
+  --nav-height: 56px;
+  /* used by JS for scroll offset */
 }
 
 /* ensure first section isn't hidden behind the fixed navbar */
@@ -70,10 +71,11 @@ body {
   max-width: 85%;
   background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
-#navbar{
+
+#navbar {
   background-image: url(./images/wave.png);
   background-position: bottom;
-  background-repeat:  repeat;
+  background-repeat: repeat;
 }
 
 
@@ -81,7 +83,7 @@ body {
   font-size: 26px;
   font-family: "monoton", sans-serif;
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
   background: -webkit-linear-gradient(left, #0014a8, #07efeb);
   background-clip: text;
   -webkit-background-clip: text;
@@ -113,12 +115,13 @@ body {
 }
 
 .bi {
-  background-color:#053B50;
+  background-color: #053B50;
   padding: 8px 12px 2px 12px;
   font-size: 30px;
   color: #64CCC5;
   border-radius: 15%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   &:hover {
     color: #12dfe7;
     box-shadow: none;
@@ -181,12 +184,15 @@ li {
   margin: -30px 0px 0px 20px;
 }
 
-.personal, .skills, .projetcs{
+.personal,
+.skills,
+.projetcs {
   color: black !important;
   text-decoration: underline;
   text-decoration-color: #07efeb;
 }
-.stack{
+
+.stack {
   text-decoration: underline;
   text-decoration-color: #07efeb;
 }
@@ -208,7 +214,8 @@ li {
 .navbar-toggler-icon {
   display: inline-block;
   width: 1em;
-  height: 1em;}
+  height: 1em;
+}
 
 
 .section_il,
@@ -220,20 +227,32 @@ li {
   font-size: 22px;
 }
 
+.item_1 {
+  height: 80px
+}
+
+.item_2 {
+  height: 250px
+}
+
 .item_3 {
   margin-top: -100px;
+  height: 380px
 }
 
 .item_4 {
   margin-top: 70px;
+  height: 210px
 }
 
 .item_5 {
   margin-top: 90px;
+  height: 150px
 }
 
 .item_6 {
   margin-top: 100px;
+  height: 180px
 }
 
 .item_1_back {
@@ -407,9 +426,11 @@ ul li::before {
   position: absolute;
   transform: rotate(90deg)
 }
+
 .navLogo:active {
   animation: rotate 0.5s ease-in-out;
 }
+
 @keyframes rotate {
   0% {
     transform: rotateY(0deg)
@@ -430,6 +451,7 @@ ul li::before {
     padding: 8px 8px 2px 8px;
     font-size: 20px;
   }
+
   .how-img {
     order: 2;
   }
@@ -935,6 +957,7 @@ ul li::before {
   transition: opacity 420ms ease, transform 420ms ease;
   will-change: opacity, transform;
 }
+
 .reveal.in-view {
   opacity: 1;
   transform: none;
@@ -952,12 +975,16 @@ ul li::before {
 .flip-card.click-flip .flip-card-inner {
   transition: transform 0.6s;
 }
+
 .flip-card.click-flip .flip-card-inner.flip {
   transform: rotateY(180deg);
 }
 
 /* small adjustment so svg and embeds can't overflow on narrow screens */
-.embed-responsive, svg, embed, model-viewer {
+.embed-responsive,
+svg,
+embed,
+model-viewer {
   max-width: 100%;
   height: auto;
 }
@@ -971,11 +998,13 @@ model-viewer {
   min-height: 300px;
   /* border-radius: 12px; */
   /* box-shadow: 0 8px 24px rgba(0,0,0,0.12); */
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.01));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.01));
   object-fit: contain;
 }
+
 /* small screens */
 @media (max-width: 768px) {
+
   model-viewer.dim,
   model-viewer {
     height: 320px;
