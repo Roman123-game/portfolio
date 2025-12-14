@@ -24,15 +24,11 @@
   --color-text-muted: #6B7280;
   --color-border: #374151;
   --color-text-bright: #afb2b5;
-  /* soft light gray (NOT white) */
 
 
-  /* used by JS for scroll offset */
 }
 
-/* ensure first section isn't hidden behind the fixed navbar */
 body {
-  /* existing properties preserved, adjust top padding so content is visible under fixed-top navbar */
   padding-top: calc(var(--nav-height) + 20px);
   padding-right: 20px;
   padding-bottom: 20px;
@@ -126,7 +122,7 @@ li {
 
 
 .offcanvas {
-  color: var(--color-text-main) !important;
+  color: var(--color-text-secondary) !important;
   background-color: var(--color-surface);
 }
 
