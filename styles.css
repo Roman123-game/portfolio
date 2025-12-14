@@ -94,27 +94,31 @@ li {
   scroll-snap-align: start;
 }
 
-.navbar-toggler {
-  color: linear-gradient(left, #0014a8, #07efeb);
-}
-
-.offcanvas {
-  max-width: 85%;
-  /* background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+#navbar {
+background-color: transparent;
 }
 
 
 .navbar-brand {
-  font-size: 26px;
-  font-family: "monoton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background: -webkit-linear-gradient(left, #0014a8, #07efeb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+font-size: 22px;
+font-weight: 700;
+background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
+
+.offcanvas {
+  color: var(--color-text-main) !important;
+background-color: var(--color-surface);
+}
+
+
+.offcanvas .nav-link.active,
+.navbar-nav .nav-link.active {
+color: var(--color-accent) !important;
+text-decoration: underline;
+}
 
 .svg1 {
   margin-top: 125px;
@@ -158,6 +162,7 @@ li {
 }
 
 .b {
+  color:var(--color-text-main) !important;
 
   &:hover {
     color: #12dfe7 !important;
