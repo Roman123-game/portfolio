@@ -987,25 +987,15 @@ ul li::before {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
-  /* Safari */
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-/* .flip-card-front {
-  background-color: #bbb; */
-/* color: black;
-} */
 
-/* Style the back side */
 .flip-card-back {
-  /* background-color: dodgerblue; */
-  /* border: 3px solid lightgrey; */
   color: var(--color-text-bright);
   transform: rotateY(180deg);
 }
 
-/* reveal animation for elements as they enter viewport */
 .reveal {
   opacity: 0;
   transform: translateY(12px);
@@ -1018,7 +1008,6 @@ ul li::before {
   transform: none;
 }
 
-/* active nav link highlight */
 .offcanvas .nav-link.active,
 .navbar-nav .nav-link.active {
   color: #07efeb !important;
@@ -1026,7 +1015,6 @@ ul li::before {
   text-decoration: underline;
 }
 
-/* touch-friendly flip: toggle using JS class instead of hover on small screens */
 .flip-card.click-flip .flip-card-inner {
   transition: transform 0.6s;
 }
@@ -1035,7 +1023,6 @@ ul li::before {
   transform: rotateY(180deg);
 }
 
-/* small adjustment so svg and embeds can't overflow on narrow screens */
 .embed-responsive,
 svg,
 embed,
@@ -1044,20 +1031,16 @@ model-viewer {
   height: auto;
 }
 
-/* Ensure model-viewer renders with a visible box and doesn't collapse */
 model-viewer.dim,
 model-viewer {
   display: block;
   width: 100%;
   height: 420px;
   min-height: 300px;
-  /* border-radius: 12px; */
-  /* box-shadow: 0 8px 24px rgba(0,0,0,0.12); */
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.01));
   object-fit: contain;
 }
 
-/* small screens */
 @media (max-width: 768px) {
 
   model-viewer.dim,
