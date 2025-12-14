@@ -117,7 +117,7 @@ li {
 .navbar-brand {
   font-family: "Monoton", sans-serif;
   /* font-style: normal; */
-  /* font-size: 22px; */
+  font-size: 22px;
   /* font-weight: 700; */
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
   -webkit-background-clip: text;
