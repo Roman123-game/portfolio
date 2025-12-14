@@ -23,7 +23,7 @@
   --color-text-secondary: #9CA3AF;
   --color-text-muted: #6B7280;
   --color-border: #374151;
-  --color-text-bright: #D1D5DB; /* soft light gray (NOT white) */
+  --color-text-bright: #afb2b5; /* soft light gray (NOT white) */
 
 
   /* used by JS for scroll offset */
@@ -58,11 +58,16 @@ body::-webkit-scrollbar-thumb {
 h1,
 h2,
 h3,
-h4 {
-  font-family: 'Space Grotesk', 'Inter', sans-serif;
-  color: var(--color-text-main);
-}
+h4,
+h5,
+h6 {
 
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  color: var(--color-text-bright);
+}
+h6{
+  font-size: large;
+}
 
 h1 {
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
@@ -239,6 +244,7 @@ li {
 .personal,
 .skills,
 .projetcs {
+  color:var(--color-text-bright);
   text-decoration: underline;
   text-decoration-color: #07efeb;
 }
@@ -367,6 +373,7 @@ ul li::before {
 }
 
 .logo {
+  color: var(--color-text-bright);
   z-index: 10;
   margin-left: 10px;
   width: 30px;
@@ -410,7 +417,7 @@ ul li::before {
 
 
 .citate {
-
+color: var(--color-text-bright);  
   margin: -10px auto;
   width: fit-content;
   font-size: 0.875rem;
@@ -435,6 +442,7 @@ ul li::before {
 
 
 .abbr {
+  color: var(--color-text-bright);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.875rem;
 }
