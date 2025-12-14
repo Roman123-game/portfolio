@@ -344,10 +344,11 @@ li {
 
 ul li::before {
   content: "\2022";
-  color: #0014a8;
+  color: #07efeb;
+;
   display: inline-block;
   width: 1.5em;
-  text-shadow: #0014a8 0px 0px 5px;
+  text-shadow: #07efeb 0px 0px 5px;
 }
 
 .progress {
