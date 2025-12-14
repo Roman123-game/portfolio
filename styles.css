@@ -20,6 +20,7 @@ body {
   padding-bottom: 20px;
   padding-left: 20px;
   width: 100%;
+  font-family: 'Inter', sans-serif;
 
 
 
@@ -40,14 +41,12 @@ body {
   }
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.02em;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-}
 
 
 
@@ -174,6 +173,7 @@ li {
   display: absolute;
   margin: 0px 0px;
   border-radius: 25px;
+  margin-left: -40px;
 }
 
 .personal_il {
@@ -188,7 +188,7 @@ li {
   display: relative;
   overflow: hidden;
   font-size: 0.860rem;
-  height: 40px;
+  height: 35px;
   animation: typing 4s forwards infinite;
   margin: -30px 0px 0px 20px;
 }
@@ -545,9 +545,6 @@ ul li::before {
     height: 300px
   }
 
-  .section_il {
-    margin-left: -40px;
-  }
 
   .item_1_back {
     height: 80px
