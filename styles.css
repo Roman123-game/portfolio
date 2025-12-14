@@ -23,7 +23,8 @@
   --color-text-secondary: #9CA3AF;
   --color-text-muted: #6B7280;
   --color-border: #374151;
-  --color-text-bright: #afb2b5; /* soft light gray (NOT white) */
+  --color-text-bright: #afb2b5;
+  /* soft light gray (NOT white) */
 
 
   /* used by JS for scroll offset */
@@ -65,7 +66,8 @@ h6 {
   font-family: 'Space Grotesk', 'Inter', sans-serif;
   color: var(--color-text-bright);
 }
-h6{
+
+h6 {
   font-size: large;
 }
 
@@ -76,7 +78,7 @@ h1 {
 }
 
 .sub_text {
-  color:#c7d5e5 ;
+  color: #c7d5e5;
 }
 
 
@@ -114,9 +116,9 @@ li {
 
 .navbar-brand {
   font-family: "Monoton", sans-serif;
-  font-style: normal;
-  font-size: 22px;
-  font-weight: 700;
+  /* font-style: normal; */
+  /* font-size: 22px; */
+  /* font-weight: 700; */
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -248,7 +250,7 @@ li {
 .personal,
 .skills,
 .projetcs {
-  color:var(--color-text-bright);
+  color: var(--color-text-bright);
   text-decoration: underline;
   text-decoration-color: #07efeb;
 }
@@ -260,11 +262,11 @@ li {
 
 @keyframes typing {
   from {
-   opacity:  0;
+    opacity: 0;
   }
 
   to {
- opacity: 100%
+    opacity: 100%
   }
 }
 
@@ -421,7 +423,7 @@ ul li::before {
 
 
 .citate {
-color: var(--color-text-bright);  
+  color: var(--color-text-bright);
   margin: -10px auto;
   width: fit-content;
   font-size: 0.875rem;
