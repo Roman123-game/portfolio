@@ -20,12 +20,9 @@ body {
   padding-bottom: 20px;
   padding-left: 20px;
   width: 100%;
-}
 
-body {
 
-  /* position: absolute; */
-  width: 100%;
+
 
   &::-webkit-scrollbar {
     width: 5px;
@@ -42,6 +39,18 @@ body {
     border-radius: 15px;
   }
 }
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
 
 .win {
   margin-left: 10px;
@@ -179,7 +188,7 @@ li {
   display: relative;
   overflow: hidden;
   font-size: 0.860rem;
-  width: 300px;
+  height: 40px;
   animation: typing 4s forwards infinite;
   margin: -30px 0px 0px 20px;
 }
@@ -203,7 +212,7 @@ li {
   }
 
   to {
-    width: 90%
+    width: 100%
   }
 }
 
@@ -523,14 +532,17 @@ ul li::before {
 
   .item_4 {
     margin-top: 120px;
+    height: 300px
   }
 
   .item_5 {
     margin-top: 135px;
+    height: 200px
   }
 
   .item_6 {
     margin-top: 90px;
+    height: 300px
   }
 
   .section_il {
@@ -553,17 +565,17 @@ ul li::before {
 
   .item_4_back {
     margin: 120px 5px;
-    height: 210px
+    height: 300px
   }
 
   .item_5_back {
     margin-top: 135px;
-    height: 150px
+    height: 200px
   }
 
   .item_6_back {
     margin-top: 100px;
-    height: 180px
+    height: 300px
   }
 
 }
@@ -907,6 +919,10 @@ ul li::before {
   height: 200px;
   /* border: 1px solid #f1f1f1; */
   /* perspective: 1000px; Remove this if you don't want the 3D effect */
+}
+
+.flip-card-front {
+  font-weight: 700;
 }
 
 /* This container is needed to position the front and back side */
