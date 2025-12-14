@@ -8,6 +8,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color-scheme: dark;
+
 }
 
 :root {
@@ -21,6 +23,8 @@
   --color-text-secondary: #9CA3AF;
   --color-text-muted: #6B7280;
   --color-border: #374151;
+  --color-text-bright: #D1D5DB; /* soft light gray (NOT white) */
+
 
   /* used by JS for scroll offset */
 }
@@ -159,7 +163,8 @@ li {
 
 
 .bi:hover {
-  color: #ffffff;
+  color: var(--color-text-bright);
+
   box-shadow: 0 12px 32px rgba(79, 70, 229, 0.35);
 }
 
@@ -995,7 +1000,7 @@ ul li::before {
 .flip-card-back {
   /* background-color: dodgerblue; */
   /* border: 3px solid lightgrey; */
-  color: white;
+  color: var(--color-text-bright);
   transform: rotateY(180deg);
 }
 
