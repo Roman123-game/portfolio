@@ -112,9 +112,7 @@ li {
 
 .navbar-brand {
   font-family: "Monoton", sans-serif;
-  /* font-style: normal; */
   font-size: 22px;
-  /* font-weight: 700; */
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -938,10 +936,7 @@ ul li::before {
   }
 }
 
-/* .logo:hover {
-  animation: hover_icon_seven 5s normal forwards ease-in;
 
-} */
 
 @keyframes hover_icon_seven {
   0% {
@@ -966,15 +961,13 @@ ul li::before {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  /* border: 1px solid #f1f1f1; */
-  /* perspective: 1000px; Remove this if you don't want the 3D effect */
+
 }
 
 .flip-card-front {
   font-weight: 700;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -984,12 +977,10 @@ ul li::before {
   transition-duration: 1500ms;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
