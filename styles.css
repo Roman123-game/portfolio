@@ -159,7 +159,7 @@ li {
 
 .bi {
   background-color: var(--color-surface-soft);
-  color: var(--color-accent);
+  color: #6C63FF;
   padding: 8px 12px 2px 12px;
   font-size: 28px;
   border-radius: 14px;
