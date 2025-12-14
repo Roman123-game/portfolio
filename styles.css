@@ -95,29 +95,31 @@ li {
 }
 
 #navbar {
-background-color: transparent;
+  background-color: transparent;
 }
 
 
 .navbar-brand {
-font-size: 22px;
-font-weight: 700;
-background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-family: "Monoton", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
 .offcanvas {
   color: var(--color-text-main) !important;
-background-color: var(--color-surface);
+  background-color: var(--color-surface);
 }
 
 
 .offcanvas .nav-link.active,
 .navbar-nav .nav-link.active {
-color: var(--color-accent) !important;
-text-decoration: underline;
+  color: var(--color-accent) !important;
+  text-decoration: underline;
 }
 
 .svg1 {
@@ -162,7 +164,7 @@ text-decoration: underline;
 }
 
 .b {
-  color:var(--color-text-main) !important;
+  color: var(--color-text-main) !important;
 
   &:hover {
     color: #12dfe7 !important;
@@ -170,6 +172,7 @@ text-decoration: underline;
   }
 
   &::before {
+    border: 1px solid var(--color-border) !important;
     border-radius: 15%;
     margin: 1px;
     padding: 12px;
@@ -199,10 +202,9 @@ li {
 .personal_il {
   background-color: var(--color-surface);
   border-radius: 16px;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-border) !important;
   padding: 16px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-
   margin: 6px 6px;
   padding: 5px 10px;
   font-size: 22px;
@@ -217,7 +219,7 @@ li {
 
 .personal_il {
   box-shadow: 0 16px 40px rgba(79, 70, 229, 0.15);
-    width: 270px;
+  width: 270px;
 }
 
 .span {
