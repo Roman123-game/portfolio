@@ -258,6 +258,7 @@ li {
 .section_il {
   margin: 12px;
   width: 400px;
+  height: 45px;
 }
 
 .personal_il {
@@ -292,7 +293,6 @@ li {
   font-size: 0.860rem;
   height: 35px;
   animation: typing 6s forwards infinite;
-  margin: -30px 0px 0px 20px;
 }
 
 .personal,
