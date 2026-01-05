@@ -333,13 +333,13 @@ li {
   align-items: start;
 }
 
-ul li::before {
+/* ul li::before {
   content: "\2022";
   color: #07efeb;
   display: inline-block;
   width: 1.5em;
   text-shadow: #07efeb 0px 0px 5px;
-}
+} */
 
 .progress {
   margin: 8px;
