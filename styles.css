@@ -1084,10 +1084,21 @@ model-viewer {
   animation-delay: 0.6s;
 }
 
-.footer-icons .bi:nth-child(3) {
+.footer-icons .bi:nth-child(3),
+ .footer-icons .bi:nth-child(8){
   animation-delay: 1.2s;
 }
 
+.footer-icons .bi:nth-child(6) {
+  animation-delay: 0.9s;
+}
+
+.footer-icons .bi:nth-child(4) {
+  animation-delay: 1.8s;
+}
+.footer-icons .bi:nth-child(5) {
+  animation-delay:2.4s;
+}
 @keyframes floatIcon {
   0%,
   100% {
