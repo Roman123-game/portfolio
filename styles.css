@@ -311,13 +311,6 @@ li {
   align-items: start;
 }
 
-/* ul li::before {
-  content: "\2022";
-  color: #07efeb;
-  display: inline-block;
-  width: 1.5em;
-  text-shadow: #07efeb 0px 0px 5px;
-} */
 
 .progress {
   margin: 8px;
@@ -433,7 +426,8 @@ li {
 }
 
 .footer-copyright {
-  background-color: #0014a8;
+  color: var(--color-bg);
+background-color: var(--color-text-secondary);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.685rem;
   margin-top: -1px;
@@ -457,9 +451,18 @@ li {
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1694609817 .shape-fill {
-  fill: #0014a8;
+.custom-shape-divider-bottom-1694609817  .shape-fill-3 {
+  fill: var(--color-text-secondary)
 }
+
+.shape-fill-1 {
+ fill: var(--color-primary  );
+}
+
+.shape-fill-2 {
+  fill: var(--color-accent  );
+}
+
 
 .logo {
   position: absolute;
