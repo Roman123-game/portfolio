@@ -1164,3 +1164,40 @@ model-viewer {
 }
 
 /* Apply typing animation */
+/* Update Card Styles */
+ .section_il {
+  background: rgba(31, 41, 51, 0.7); /* Use --color-surface-soft with opacity */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(34, 211, 238, 0.2); /* Soft accent border */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.personal_il:hover, .section_il:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-accent);
+}
+
+/* Improve Typography Consistency */
+body {
+  font-family: 'Inter', sans-serif; /* Standardize on Inter */
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.how-section .row {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
