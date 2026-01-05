@@ -1123,10 +1123,10 @@ model-viewer {
 @keyframes floatIcon {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translateY(-8px);
+    transform: translate3d(0, -12px, 0);
   }
 }
 .footer-icons .bi:active {
