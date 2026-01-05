@@ -41,6 +41,10 @@ body {
   padding: calc(var(--nav-height) + 20px) 20px 20px;
   scroll-snap-type: y proximity;
   overflow-x: hidden;
+
+  a{
+    text-decoration: none;
+  }
 }
 
 body::-webkit-scrollbar {
@@ -1110,4 +1114,18 @@ model-viewer {
 .footer-icons .bi:active {
   transform: scale(0.95);
   box-shadow: 0 4px 14px rgba(34, 211, 238, 0.35);
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-container-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
 }
