@@ -1042,8 +1042,8 @@ model-viewer {
 }
 .footer-icons a {
   color: var(--color-text-bright);
-  font-size: 24px;
-  transition: color 0.3s ease;
+  text-decoration: none;
+
 }
 .footer-icons .bi {
   background: linear-gradient(
@@ -1115,9 +1115,9 @@ model-viewer {
   align-items: flex-start;
   justify-content: center;
   column-gap: 15px;
-   a{
+   /* a{
     text-decoration: none;
-  }
+  } */
 }
 
 /* Base state */
