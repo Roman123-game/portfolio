@@ -348,7 +348,6 @@ li {
 ul li::before {
   content: "\2022";
   color: #07efeb;
-  ;
   display: inline-block;
   width: 1.5em;
   text-shadow: #07efeb 0px 0px 5px;
@@ -356,14 +355,16 @@ ul li::before {
 
 .progress {
   margin: 8px;
-  background: transparent;
+  background: none;
   height: 40px;
 }
 
 .progress-bar {
-  -moz-box-shadow: inset 40px 0 40px #001191;
+  background-color: unset;
+  border: 1px solid var(--color-border);
+  /* -moz-box-shadow: inset 40px 0 40px #001191;
   -webkit-box-shadow: inset 40px 0 40px #001191;
-  box-shadow: inset 40px 0 40px #001191;
+  box-shadow: inset 40px 0 40px #001191; */
 }
 
 .logo {
