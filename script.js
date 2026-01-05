@@ -89,4 +89,19 @@
     }
   }
 
+  const sections_il = document.querySelectorAll('.section_il');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('in-view');
+      entry.target.querySelector('p').style.animationPlayState = 'running';
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.2 });
+
+sections_il.forEach(section => observer.observe(section));
+
+
 })();

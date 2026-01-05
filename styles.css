@@ -211,7 +211,7 @@ li {
 
 
 
-.section_il,
+
 .personal_il {
   background-color: var(--color-surface);
   border-radius: 16px;
@@ -224,16 +224,6 @@ li {
 }
 
 
-.section_il {
-  margin: 12px;
-  width: 400px;
-}
-
-
-.personal_il {
-  box-shadow: 0 16px 40px rgba(79, 70, 229, 0.15);
-  width: 270px;
-}
 
 .span {
   display: relative;
@@ -1149,4 +1139,46 @@ model-viewer {
    a{
     text-decoration: none;
   }
+}
+
+/* Base state */
+.section_il {
+  opacity: 0;
+  transform: translateX(-20px); /* small slide effect */
+  white-space: nowrap; /* for typing effect */
+  overflow: hidden;    /* hide text until revealed */
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 1.1rem;
+  color: var(--color-text-bright);
+  border: 1px solid var(--color-border);
+  animation: typing 2s steps(30, end) forwards;
+  height: 60px;
+  margin-bottom: 12px;
+}
+
+/* Typing effect animation */
+@keyframes typing {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 75%;
+    opacity: 1;
+  }
+}
+
+/* Apply typing animation */
+.section_il p {
+  display: inline-block;
+  width: 0;
+  animation: typing 2s steps(30, end) forwards;
+}
+
+/* Optional fade/slide for whole block */
+.section_il.in-view {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
