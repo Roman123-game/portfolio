@@ -362,10 +362,29 @@ ul li::before {
 .progress-bar {
   background-color: unset;
   border: 1px solid var(--color-border);
-  /* -moz-box-shadow: inset 40px 0 40px #001191;
-  -webkit-box-shadow: inset 40px 0 40px #001191;
-  box-shadow: inset 40px 0 40px #001191; */
+  position: relative;
+  overflow: hidden;
+  height: 40px; /* adjust as needed */
 }
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%; /* initial state */
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-accent)
+  );
+  transition: width 1.2s ease-in-out;
+}
+
+.progress-bar:hover::before {
+  width: 100%; /* target progress, change per bar */
+}
+
 
 .logo {
   color: var(--color-text-bright);
