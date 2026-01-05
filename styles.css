@@ -1142,8 +1142,8 @@ model-viewer {
   font-size: 1.1rem;
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
-  animation: typing 2s steps(30, end) forwards;
-  height: 60px;
+  animation: typing 8s steps(30, end) forwards;
+  height: 55px;
   margin-bottom: 12px;
 }
 
