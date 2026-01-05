@@ -1101,7 +1101,7 @@ model-viewer {
     color 220ms ease;
 }
 .footer-icons .bi:hover {
-  transform: translateY(-6px) scale(1.08);
+  /* transform: translateY(-6px) scale(1.08); */
   color: var(--color-accent);
 
   box-shadow:
