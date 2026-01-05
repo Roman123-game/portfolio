@@ -1098,7 +1098,7 @@ model-viewer {
     transform 220ms ease,
     box-shadow 220ms ease,
     background-color 220ms ease,
-    color 220ms ease;
+    color 220ms ease; 
 }
 .footer-icons .bi:hover {
   color: var(--color-accent);
