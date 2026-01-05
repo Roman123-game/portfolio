@@ -42,9 +42,7 @@ body {
   scroll-snap-type: y proximity;
   overflow-x: hidden;
 
-  a{
-    text-decoration: none;
-  }
+ 
 }
 
 body::-webkit-scrollbar {
@@ -1123,9 +1121,13 @@ model-viewer {
 }
 
 .flex-container-icons {
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   column-gap: 15px;
+   a{
+    text-decoration: none;
+  }
 }
