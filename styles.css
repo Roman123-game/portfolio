@@ -41,8 +41,7 @@ body {
   padding: calc(var(--nav-height) + 20px) 20px 20px;
   scroll-snap-type: y proximity;
   overflow-x: hidden;
-
- 
+  line-height: 1.8;
 }
 
 body::-webkit-scrollbar {
@@ -1163,24 +1162,9 @@ model-viewer {
   }
 }
 
-/* Apply typing animation */
-/* Update Card Styles */
- .section_il {
-  background: rgba(31, 41, 51, 0.7); /* Use --color-surface-soft with opacity */
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  transition: transform 0.3s ease, border-color 0.3s ease;
-}
 
-.personal_il:hover, .section_il:hover {
-  border-color: var(--color-accent);
-}
 
-/* Improve Typography Consistency */
-body {
-  font-family: 'Inter', sans-serif; /* Standardize on Inter */
-  line-height: 1.8;
-}
+
 
 h1, h2, h3 {
   letter-spacing: -0.02em;
