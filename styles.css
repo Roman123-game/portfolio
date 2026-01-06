@@ -339,36 +339,71 @@ li {
 
 
 .progress {
+    background-color: transparent;
   margin: 8px;
-  background: none;
   height: 40px;
 }
 
+
 .progress-bar {
-  background-color: unset;
-  border: 1px solid var(--color-border);
+  background-color: transparent;
   position: relative;
+  height: 40px;
+  width: 100%;
+  border: 1px solid var(--color-border);
   overflow: hidden;
-  height: 40px; /* adjust as needed */
+  width: calc(var(--target) * 1%);
+
 }
 .progress-bar::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0%; /* initial state */
+  inset: 0;
+  width: 0%;
   background: linear-gradient(
     90deg,
     var(--color-primary),
     var(--color-accent)
   );
-  transition: width 1.2s ease-in-out;
+  transition: width 1.4s ease-out;
 }
 
 .progress-bar:hover::before {
-  width: 100%; /* target progress, change per bar */
+  width: 100%
 }
+
+
+
+
+.progress-label {
+  background: unset;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--color-text-bright);
+  z-index: 2;
+
+  counter-reset: percent 0;
+}
+
+.progress-bar:hover .progress-label {
+  animation: countUp 1.4s steps(var(--target)) forwards;
+}
+
+@keyframes countUp {
+  to {
+    counter-reset: percent var(--target);
+  }
+}
+
+.progress-label::after {
+  content: counter(percent) "%";
+}
+
+
 
 
 .logo {
