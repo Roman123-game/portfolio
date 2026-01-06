@@ -383,7 +383,7 @@ li {
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  color: var(--color-text-bright);
+  color: var(--color-text-main);
   z-index: 2;
 
   counter-reset: percent 0;
