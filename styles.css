@@ -114,11 +114,12 @@ li {
   transform: translateX(0);
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
+
 .section_il {
   opacity: 0;
   transform: translateX(-20px);
-  white-space: nowrap; 
-  overflow: hidden;   
+  white-space: nowrap;
+  overflow: hidden;
   border-radius: 16px;
   padding: 16px;
   font-size: 1.1rem;
@@ -221,7 +222,7 @@ li {
   margin: 6px 6px;
   padding: 5px 10px;
   font-size: 22px;
-  border : 1px solid var(--color-accent);
+  border: 1px solid var(--color-accent);
   text-align: center;
 }
 
@@ -339,7 +340,7 @@ li {
 
 
 .progress {
-    background-color: transparent;
+  background-color: transparent;
   margin: 8px;
   height: 40px;
 }
@@ -355,16 +356,15 @@ li {
   width: calc(var(--target) * 1%);
 
 }
+
 .progress-bar::before {
   content: "";
   position: absolute;
   inset: 0;
   width: 0%;
-  background: linear-gradient(
-    90deg,
-    var(--color-primary),
-    var(--color-accent)
-  );
+  background: linear-gradient(90deg,
+      var(--color-primary),
+      var(--color-accent));
   transition: width 1.4s ease-out;
 }
 
@@ -385,7 +385,9 @@ li {
   font-weight: 600;
   color: var(--color-text-main);
   z-index: 2;
-
+  font-family:  system-ui;
+  font-size: medium;
+  font-weight: 100;
   counter-reset: percent 0;
 }
 
@@ -488,7 +490,7 @@ li {
 
 .footer-copyright {
   color: var(--color-bg);
-background-color: var(--color-text-secondary);
+  background-color: var(--color-text-secondary);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.685rem;
   margin-top: -1px;
@@ -512,16 +514,16 @@ background-color: var(--color-text-secondary);
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1694609817  .shape-fill-3 {
+.custom-shape-divider-bottom-1694609817 .shape-fill-3 {
   fill: var(--color-text-secondary)
 }
 
 .shape-fill-1 {
- fill: var(--color-primary  );
+  fill: var(--color-primary);
 }
 
 .shape-fill-2 {
-  fill: var(--color-accent  );
+  fill: var(--color-accent);
 }
 
 
@@ -1094,6 +1096,7 @@ model-viewer {
     margin-top: 8px;
   }
 }
+
 .footer-icons {
   display: flex;
   justify-content: center;
@@ -1101,13 +1104,15 @@ model-viewer {
   gap: 18px;
   margin-top: 24px;
 }
+
 .footer-icons a {
   color: var(--color-text-bright);
   text-decoration: none;
 
 }
+
 .footer-icons .bi {
-  background: linear-gradient(145deg, rgba(79, 70, 229, 0.15),rgba(34, 211, 238, 0.08));
+  background: linear-gradient(145deg, rgba(79, 70, 229, 0.15), rgba(34, 211, 238, 0.08));
   border: 1px solid var(--color-border);
   backdrop-filter: blur(6px);
   width: 52px;
@@ -1122,8 +1127,9 @@ model-viewer {
     transform 220ms ease,
     box-shadow 220ms ease,
     background-color 220ms ease,
-    color 220ms ease; 
+    color 220ms ease;
 }
+
 .footer-icons .bi:hover {
   color: var(--color-accent);
 
@@ -1131,6 +1137,7 @@ model-viewer {
     0 10px 30px rgba(79, 70, 229, 0.45),
     inset 0 0 0 1px rgba(34, 211, 238, 0.6);
 }
+
 .footer-icons .bi {
   animation: floatIcon 4s ease-in-out infinite;
 }
@@ -1140,7 +1147,7 @@ model-viewer {
 }
 
 .footer-icons .bi:nth-child(3),
- .footer-icons .bi:nth-child(8){
+.footer-icons .bi:nth-child(8) {
   animation-delay: 1.2s;
 }
 
@@ -1151,22 +1158,28 @@ model-viewer {
 .footer-icons .bi:nth-child(4) {
   animation-delay: 1.8s;
 }
+
 .footer-icons .bi:nth-child(5) {
-  animation-delay:2.4s;
+  animation-delay: 2.4s;
 }
+
 @keyframes floatIcon {
+
   0%,
   100% {
     transform: translate3d(0, 0, 0);
   }
+
   50% {
     transform: translate3d(0, -12px, 0);
   }
 }
+
 .footer-icons .bi:active {
   transform: scale(0.95);
   box-shadow: 0 4px 14px rgba(34, 211, 238, 0.35);
 }
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -1191,6 +1204,7 @@ model-viewer {
     width: 0;
     opacity: 0;
   }
+
   to {
     width: 75%;
     opacity: 1;
@@ -1201,14 +1215,18 @@ model-viewer {
 
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   letter-spacing: -0.02em;
 }
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
