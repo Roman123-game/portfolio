@@ -1164,6 +1164,79 @@ model-viewer {
   animation-delay: 2.4s;
 }
 
+
+..carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.carousel input {
+  display: none;
+}
+
+/* slides */
+.slides {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+blockquote {
+  min-width: 100%;
+  padding: 32px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* slide positions */
+#q1:checked ~ .slides { transform: translateX(0); }
+#q2:checked ~ .slides { transform: translateX(-100%); }
+#q3:checked ~ .slides { transform: translateX(-200%); }
+
+/* arrows base */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 42px;
+  color: #22D3EE;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 14px;
+  /* border-radius: 50%; */
+  background: rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.arrow:hover {
+  background: rgba(34, 211, 238, 0.25);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.left {
+  left: -10px;
+}
+
+.right {
+  right: -10px;
+}
+
+/* show arrows conditionally */
+#q1:checked ~ .a1,
+#q2:checked ~ .a2,
+#q3:checked ~ .a3 {
+  display: block;
+}
+
+.a1,
+.a2,
+.a3 {
+  display: none;
+}
+
+
 @keyframes floatIcon {
 
   0%,
