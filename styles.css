@@ -1173,7 +1173,8 @@ model-viewer {
 }
 
 .carousel input {
-  display: none;
+display: none;
+
 }
 
 /* slides */
@@ -1240,6 +1241,8 @@ blockquote {
 .author::before {
   content: "\00A9";
 }
+
+#qX:checked ~ .aX { display: block; }
 
 
 @keyframes floatIcon {
