@@ -1165,9 +1165,9 @@ model-viewer {
 }
 
 
-..carousel {
+.carousel {
   position: relative;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 40px auto;
   overflow: hidden;
 }
@@ -1208,6 +1208,7 @@ blockquote {
   /* border-radius: 50%; */
   background: rgba(0, 0, 0, 0.3);
   transition: background 0.2s ease, transform 0.2s ease;
+  margin: -10px auto;
 }
 
 .arrow:hover {
@@ -1234,6 +1235,10 @@ blockquote {
 .a2,
 .a3 {
   display: none;
+}
+
+.author::before {
+  content: "\00A9";
 }
 
 
