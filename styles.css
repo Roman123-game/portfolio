@@ -1168,7 +1168,7 @@ model-viewer {
 .carousel {
   position: relative;
   max-width: 1000px;
-  margin: 40px auto;
+  margin: -240px auto;
   overflow: hidden;
 }
 
@@ -1199,7 +1199,6 @@ blockquote {
 /* arrows base */
 .arrow {
   position: absolute;
-  top: 50%;
   transform: translateY(-50%);
   font-size: 42px;
   color: #22D3EE;
@@ -1218,10 +1217,12 @@ blockquote {
 }
 
 .left {
+  top: 90px;
   left: -10px;
 }
 
 .right {
+  top: 90px;
   right: -10px;
 }
 
