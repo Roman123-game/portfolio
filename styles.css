@@ -1187,7 +1187,7 @@ blockquote {
   min-width: 100%;
   padding: 32px;
   text-align: center;
-  font-size: 22px;
+  font-size: 26px;
   font-style: italic;
 }
 
@@ -1239,6 +1239,9 @@ blockquote {
   display: none;
 }
 
+.author{
+  font-family: sans-serif;
+}
 .author::before {
   content: "\00A9";
 }
