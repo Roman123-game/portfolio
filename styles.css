@@ -386,7 +386,7 @@ li {
   font-weight: 600;
   color: var(--color-text-main);
   z-index: 2;
-  font-family:  system-ui;
+  font-family: system-ui;
   font-size: medium;
   font-weight: 100;
   counter-reset: percent 0;
@@ -1167,13 +1167,13 @@ model-viewer {
 
 .carousel {
   position: relative;
-  max-width: 1000px;
+  max-width: 1050px;
   margin: -240px auto;
   overflow: hidden;
 }
 
 .carousel input {
-display: none;
+  display: none;
 
 }
 
@@ -1191,17 +1191,41 @@ blockquote {
   font-style: italic;
 }
 
+.quote-icon:before {
+  color: var(--color-text-main);
+  content: open-quote;
+  font-size: 36px;
+  font-weight: 800;
+
+}
+
+.quote-icon:after {
+  color: var(--color-text-main);
+  content: close-quote;
+  font-size: 36px;
+  font-weight: 800;
+
+}
+
 /* slide positions */
-#q1:checked ~ .slides { transform: translateX(0); }
-#q2:checked ~ .slides { transform: translateX(-100%); }
-#q3:checked ~ .slides { transform: translateX(-200%); }
+#q1:checked~.slides {
+  transform: translateX(0);
+}
+
+#q2:checked~.slides {
+  transform: translateX(-100%);
+}
+
+#q3:checked~.slides {
+  transform: translateX(-200%);
+}
 
 /* arrows base */
 .arrow {
   position: absolute;
   transform: translateY(-50%);
   font-size: 42px;
-  color: #22D3EE;
+  color: var(--color-accent);
   cursor: pointer;
   user-select: none;
   padding: 8px 14px;
@@ -1227,9 +1251,9 @@ blockquote {
 }
 
 /* show arrows conditionally */
-#q1:checked ~ .a1,
-#q2:checked ~ .a2,
-#q3:checked ~ .a3 {
+#q1:checked~.a1,
+#q2:checked~.a2,
+#q3:checked~.a3 {
   display: block;
 }
 
@@ -1239,14 +1263,17 @@ blockquote {
   display: none;
 }
 
-.author{
+.author {
   font-family: sans-serif;
 }
+
 .author::before {
   content: "\00A9";
 }
 
-#qX:checked ~ .aX { display: block; }
+#qX:checked~.aX {
+  display: block;
+}
 
 
 @keyframes floatIcon {
