@@ -1196,6 +1196,7 @@ blockquote {
   content: open-quote;
   font-size: 36px;
   font-weight: 800;
+  font-family:  sans-serif;
 
 }
 
@@ -1204,6 +1205,7 @@ blockquote {
   content: close-quote;
   font-size: 36px;
   font-weight: 800;
+    font-family:  sans-serif;
 
 }
 
