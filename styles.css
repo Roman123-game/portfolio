@@ -367,6 +367,8 @@ li {
       var(--color-primary),
       var(--color-accent));
   transition: width 1.4s ease-out;
+  filter: blur(2px);
+
 }
 
 .progress-bar:hover::before {
