@@ -110,23 +110,13 @@ li {
   width: 0;
 
 }
-
-/* Optional fade/slide for whole block */
-/* .section_il.in-view {
-  opacity: 1;
-  transform: translateX(0);
-  transition: transform 0.4s ease, opacity 0.4s ease;
-
-
-} */
-
 .section_il {
   opacity: 0;
-  transform: translateX(-20px);
+  /* transform: translateX(-20px); */
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
-  padding: 10px 0;
+  padding: 10px 0px;
   font-size: 1.1rem;
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
