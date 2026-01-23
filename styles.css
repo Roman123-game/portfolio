@@ -177,8 +177,8 @@ li {
 }
 
 .col-md-6 {
-  margin-top: 100px;
-  margin-bottom: 180px;
+  margin: 130px 0px;
+  /* margin-bottom: 180px; */
 }
 
 .b {
