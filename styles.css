@@ -112,14 +112,13 @@ li {
 }
 
 /* Optional fade/slide for whole block */
-.section_il.in-view {
+/* .section_il.in-view {
   opacity: 1;
   transform: translateX(0);
   transition: transform 0.4s ease, opacity 0.4s ease;
-  background-color: #ffffff10;
 
 
-}
+} */
 
 .section_il {
   opacity: 0;
@@ -135,7 +134,8 @@ li {
   height: 55px;
   margin-bottom: 12px;
   text-align: center;
-
+  background-color: #ffffff10;
+  
 }
 
 .hr-scroll {
