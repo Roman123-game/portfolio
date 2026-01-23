@@ -112,7 +112,6 @@ li {
 }
 .section_il {
   opacity: 0;
-  /* transform: translateX(-20px); */
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
@@ -148,14 +147,14 @@ li {
 
 
 .offcanvas {
-  color: var(--color-text-secondary) !important;
+  color: var(--color-text-secondary);
   background-color: var(--color-surface);
 }
 
 
 .offcanvas .nav-link.active,
 .navbar-nav .nav-link.active {
-  color: var(--color-accent) !important;
+  color: var(--color-accent);
   text-decoration: underline;
 }
 
@@ -183,7 +182,7 @@ li {
 }
 
 .b {
-  color: var(--color-text-main) !important;
+  color: var(--color-text-main);
 
   &:hover {
     color: #12dfe7 !important;
