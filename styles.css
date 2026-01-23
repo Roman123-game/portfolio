@@ -3,9 +3,6 @@
   font-family: "Indie Flower";
   font-size: 26px;
   font-style: normal;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   color-scheme: dark;
@@ -50,7 +47,7 @@ body::-webkit-scrollbar {
 
 
 body::-webkit-scrollbar-thumb {
-  background: radial-gradient(var(--color-text-muted),var(--color-primary) , var(--color-accent));
+  background: radial-gradient(var(--color-text-muted), var(--color-primary), var(--color-accent));
   border-radius: 12px;
 }
 
@@ -113,7 +110,7 @@ li {
   opacity: 1;
   transform: translateX(0);
   transition: transform 0.4s ease, opacity 0.4s ease;
-background-color: #ffffff10;
+  background-color: #ffffff10;
 
 
 }
@@ -124,7 +121,7 @@ background-color: #ffffff10;
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 1.1rem;
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
@@ -256,15 +253,6 @@ li {
   text-decoration-color: #07efeb;
 }
 
-@keyframes typing {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 100%
-  }
-}
 
 .navbar-brand {
   font-size: 22px;
@@ -1203,7 +1191,7 @@ blockquote {
   content: open-quote;
   font-size: 36px;
   font-weight: 800;
-  font-family:  sans-serif;
+  font-family: sans-serif;
 
 }
 
@@ -1212,7 +1200,7 @@ blockquote {
   content: close-quote;
   font-size: 36px;
   font-weight: 800;
-    font-family:  sans-serif;
+  font-family: sans-serif;
 
 }
 
