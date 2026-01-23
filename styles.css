@@ -386,11 +386,7 @@ li {
   animation: countUp 1.4s steps(var(--target)) forwards;
 }
 
-@keyframes countUp {
-  to {
-    counter-reset: percent var(--target);
-  }
-}
+
 
 .progress-label::after {
   content: counter(percent) "%";
@@ -963,36 +959,10 @@ li {
   transform-origin: left;
 }
 
-@keyframes rotaterigth {
-  0% {
-    transform: rotate(45deg);
-  }
 
-  100% {
-    transform: rotate(-45deg);
-  }
+.how-section .row {
+  animation: fadeInUp 0.8s ease-out forwards;
 }
-
-
-
-@keyframes hover_icon_seven {
-  0% {
-    color: white;
-    transform: scale(1) rotate(90deg);
-  }
-
-  50% {
-    color: grey;
-    transform: scale(10) translateX(0px) translateY(0px) rotate(90deg);
-  }
-
-  100% {
-    color: transparent;
-    transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
-  }
-}
-
-
 
 .flip-card {
   background-color: transparent;
@@ -1009,7 +979,7 @@ li {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
   transition-duration: 1500ms;
 }
@@ -1268,18 +1238,6 @@ blockquote {
 }
 
 
-@keyframes floatIcon {
-
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-
-  50% {
-    transform: translate3d(0, -6px, 0);
-  }
-}
-
 .footer-icons .bi:active {
   transform: scale(0.95);
   box-shadow: 0 4px 14px rgba(34, 211, 238, 0.35);
@@ -1327,6 +1285,51 @@ blockquote {
   }
 }
 
-.how-section .row {
-  animation: fadeInUp 0.8s ease-out forwards;
+
+
+@keyframes floatIcon {
+
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+}
+
+
+@keyframes rotaterigth {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+
+@keyframes hover_icon_seven {
+  0% {
+    color: white;
+    transform: scale(1) rotate(90deg);
+  }
+
+  50% {
+    color: grey;
+    transform: scale(10) translateX(0px) translateY(0px) rotate(90deg);
+  }
+
+  100% {
+    color: transparent;
+    transform: scale(15) translateX(0px) translateY(0px) rotate(90deg);
+  }
+}
+@keyframes countUp {
+  to {
+    counter-reset: percent var(--target);
+  }
 }
