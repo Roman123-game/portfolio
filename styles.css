@@ -358,13 +358,9 @@ li {
   filter: blur(2px);
 
 }
-
 .progress-bar:hover::before {
   width: 100%
 }
-
-
-
 
 .progress-label {
   background: unset;
