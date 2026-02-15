@@ -1126,6 +1126,8 @@ model-viewer {
   max-width: 1050px;
   margin: -240px auto;
   overflow: hidden;
+  padding-bottom: 80px;
+  min-height: 200px;
 }
 
 .carousel input {
@@ -1137,10 +1139,12 @@ model-viewer {
 .slides {
   display: flex;
   transition: transform 0.6s ease;
+  width: 100%;
 }
 
 blockquote {
   min-width: 100%;
+  flex-shrink: 0;
   padding: 32px;
   text-align: center;
   font-size: 26px;
@@ -1219,6 +1223,44 @@ blockquote {
 .a2,
 .a3 {
   display: none;
+}
+
+/* Carousel dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  z-index: 100;
+  padding: 10px;
+}
+
+.carousel-dots .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid var(--color-accent);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.3);
+}
+
+.carousel-dots .dot:hover {
+  background: rgba(34, 211, 238, 0.6);
+  transform: scale(1.3);
+  box-shadow: 0 0 16px var(--color-accent);
+}
+
+/* Active dot states */
+#q1:checked ~ .carousel-dots .dot:nth-child(1),
+#q2:checked ~ .carousel-dots .dot:nth-child(2),
+#q3:checked ~ .carousel-dots .dot:nth-child(3) {
+  background: var(--color-accent);
+  box-shadow: 0 0 20px var(--color-accent);
+  transform: scale(1.2);
 }
 
 .author {
