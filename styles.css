@@ -1259,8 +1259,6 @@ blockquote {
 #q2:checked ~ .carousel-dots .dot:nth-child(2),
 #q3:checked ~ .carousel-dots .dot:nth-child(3) {
   background: var(--color-accent);
-  /* box-shadow: 0 0 20px var(--color-accent); */
-  transform: scale(1.2);
 }
 
 .author {
