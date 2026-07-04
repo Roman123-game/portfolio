@@ -987,30 +987,7 @@ li {
   color: var(--color-text-bright);
   transform: rotateY(180deg);
 }
-.flip-card-front::before,
-.flip-card-back::before{
-    content:"";
-    position:absolute;
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    background:
-        radial-gradient(
-            var(--color-primary),
-            transparent 70%
-        );
-    top:-80px;
-    right:-80px;
-    opacity:.25;
-}
 
-.flip-card-back::before{
-    background:
-        radial-gradient(
-            var(--color-accent),
-            transparent 70%
-        );
-}
 .flip-card:hover .flip-card-front,
 .flip-card:hover .flip-card-back{
     border-color:rgba(34,211,238,.45);
