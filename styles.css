@@ -1055,7 +1055,7 @@ li {
     letter-spacing:.08em;
     text-transform:uppercase;
     background:rgba(79,70,229,.2);
-    color:var(--color-accent);
+    color:var(--color-text-main);
     border:1px solid rgba(79,70,229,.4);
 }
 
