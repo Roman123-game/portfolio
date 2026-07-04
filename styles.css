@@ -208,10 +208,6 @@ h1 {
   height: 1em;
 }
 
-.personal_il {
-  align-self: start;
-}
-
 .personal_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -768,11 +764,11 @@ h1 {
   top: 18px;
   left: 18px;
   padding: 4px 12px;
-  border-radius: 20px;
+  border-radius: 16px;
   font-size: .7rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  background: rgba(79, 70, 229, .2);
+  background-color:var(--color-surface);
   color: var(--color-text-main);
   border: 1px solid rgba(79, 70, 229, .4);
 }
