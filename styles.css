@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   color-scheme: dark;
-
 }
 
 :root {
@@ -21,8 +20,6 @@
   --color-text-muted: #6B7280;
   --color-border: #374151;
   --color-text-bright: #afb2b5;
-
-
 }
 
 body {
@@ -106,7 +103,7 @@ li {
 }
 
 .section_il p {
-  display: inline-block;
+  /* display: inline-block; */
   width: 0;
 
 }
@@ -115,14 +112,14 @@ li {
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
-  padding: 10px 0px;
+  padding: 10px 20px;
   font-size: 1.1rem;
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
   animation: typing 2s steps(30, end) forwards;
   height: 55px;
   margin-bottom: 12px;
-  text-align: center;
+  text-align: left;
   background-color: #ffffff10;
   
 }
