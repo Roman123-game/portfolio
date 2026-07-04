@@ -57,6 +57,9 @@ h6 {
   font-family: 'Space Grotesk', 'Inter', sans-serif;
   color: var(--color-text-bright);
 }
+h6{
+  font-size: 0.8rem;
+}
 
 h1 {
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
@@ -1211,7 +1214,7 @@ blockquote {
   display: block;
   margin-top: 18px;
   color: var(--color-text-secondary);
-  font-size: .75rem;
+  font-size: .65rem;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
