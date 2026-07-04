@@ -27,7 +27,6 @@ body {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  /* width: 100%; */
   font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text-main);
@@ -80,7 +79,6 @@ h1 {
   }
 
 }
-
 
 .section_il {
   opacity: 0;
@@ -224,7 +222,6 @@ h1 {
   height: 40px;
 }
 
-
 .progress-bar {
   background-color: #ffffff10;
   position: relative;
@@ -246,7 +243,6 @@ h1 {
       var(--color-accent));
   transition: width 1.4s ease-out;
   filter: blur(2px);
-
 }
 
 .progress-bar:hover::before {
