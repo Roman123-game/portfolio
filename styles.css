@@ -1260,23 +1260,6 @@ blockquote {
   font-style: italic;
 }
 
-.quote-icon:before {
-  color: var(--color-text-main);
-  content: open-quote;
-  font-size: 36px;
-  font-weight: 800;
-  font-family: sans-serif;
-
-}
-
-.quote-icon:after {
-  color: var(--color-text-main);
-  content: close-quote;
-  font-size: 36px;
-  font-weight: 800;
-  font-family: sans-serif;
-
-}
 
 /* slide positions */
 #q1:checked~.slides {
