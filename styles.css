@@ -75,17 +75,6 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.sub_text {
-  color: #c7d5e5;
-}
-
-
-p,
-li {
-  color: var(--color-text-secondary);
-  line-height: 1.6;
-}
-
 
 .win {
   margin-left: 10px;
@@ -164,14 +153,10 @@ li {
   margin-left: 30px;
 }
 
-/* .dim {
-  width: inherit;
-  margin-top: 80px;
-} */
 
 .col-md-6 {
   margin: 130px 0px;
-  /* margin-bottom: 180px; */
+
 }
 
 .b {
@@ -513,127 +498,6 @@ li {
   transform: rotate(270deg)
 }
 
-@media only screen and (max-width: 768px) {
-  .bi {
-    padding: 8px 8px 2px 8px;
-    font-size: 20px;
-  }
-
-  .how-img {
-    order: 2;
-  }
-
-  .col-md-6 {
-    margin-top: 80px;
-    margin-bottom: 10px;
-  }
-
-  .svg1 {
-    margin-top: -80px;
-  }
-
-  .svg2 {
-    margin-top: -20px;
-    margin-left: 50px;
-  }
-
-  .svg3 {
-    margin-top: -500px;
-    margin-left: 50px;
-  }
-
-  #footer {
-    position: relative;
-    margin: -32px -20px;
-  }
-
-  .degree {
-    height: 200px;
-    margin: 180px 50px
-  }
-
-  .progress {
-    margin: 5px;
-    height: 20px;
-  }
-
-  .css_chart {
-    height: auto;
-  }
-
-  /* .dim {
-    margin-top: -100px;
-  } */
-
-  .all_citates {
-    margin-top: -150px;
-  }
-
-  .logo {
-    width: 22px;
-    height: 22px;
-  }
-
-  .personal_grid {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    margin-left: -50px;
-  }
-
-  .item_2 {
-    margin-top: -110px;
-  }
-
-  .item_3 {
-    margin-top: -60px;
-  }
-
-  .item_4 {
-    margin-top: 120px;
-    height: 300px
-  }
-
-  .item_5 {
-    margin-top: 135px;
-    height: 200px
-  }
-
-  .item_6 {
-    margin-top: 90px;
-    height: 300px
-  }
-
-
-  .item_1_back {
-    height: 80px
-  }
-
-  .item_2_back {
-    margin: -110px 5px;
-    height: 250px
-  }
-
-  .item_3_back {
-    margin: -60px 5px;
-    height: 380px
-  }
-
-  .item_4_back {
-    margin: 120px 5px;
-    height: 300px
-  }
-
-  .item_5_back {
-    margin-top: 135px;
-    height: 200px
-  }
-
-  .item_6_back {
-    margin-top: 100px;
-    height: 300px
-  }
-
-}
 
 #hair_two,
 #head_first,
@@ -939,12 +803,7 @@ li {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
-/* .flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
 
-} */
 
 .flip-card-front{
   background-color: rgba(34,211,238,.1);
@@ -1134,7 +993,7 @@ model-viewer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 18px;
+  gap: 8px;
   margin-top: 24px;
 }
 
@@ -1148,8 +1007,8 @@ model-viewer {
   background: linear-gradient(145deg, rgba(79, 70, 229, 0.15), rgba(34, 211, 238, 0.08));
   border: 1px solid var(--color-border);
   backdrop-filter: blur(6px);
-  width: 52px;
-  height: 52px;
+  width: 72px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1458,13 +1317,6 @@ blockquote {
   transition: .35s ease;
 }
 
-/* .citate:hover {
-  transform: translateY(-6px);
-  border-color: var(--color-accent);
-  box-shadow:
-      0 25px 60px rgba(34,211,238,.18),
-      0 0 25px rgba(79,70,229,.15);
-} */
 
 .citate::before {
   content: "“";
