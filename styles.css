@@ -939,11 +939,15 @@ li {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
 
+} */
+
+.flip-card-front{
+  background-color: rgba(34,211,238,.1);
 }
 
 .flip-card{
@@ -976,13 +980,6 @@ li {
     overflow:hidden;
     backface-visibility:hidden;
     border:1px solid rgba(255,255,255,.08);
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,.05),
-            rgba(255,255,255,.02)
-        );
-    backdrop-filter:blur(18px);
     transition:.35s;
 }
 
