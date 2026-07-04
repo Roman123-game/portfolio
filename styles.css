@@ -311,11 +311,6 @@ h1 {
   width: 280px;
 }
 
-.all_citates {
-  text-align: center;
-  margin-top: -350px;
-}
-
 
 .footer-copyright {
   color: var(--color-bg);
@@ -982,7 +977,7 @@ blockquote {
   color: var(--color-accent);
   cursor: pointer;
   user-select: none;
-  padding: 8px 14px;
+  padding: 8px;
   background: rgba(0, 0, 0, 0.3);
   transition: background 0.2s ease, transform 0.2s ease;
   margin: -10px auto;
@@ -994,12 +989,12 @@ blockquote {
 }
 
 .left {
-  top: 90px;
+  top: 70px;
   left: -10px;
 }
 
 .right {
-  top: 90px;
+  top: 70px;
   right: -10px;
 }
 
@@ -1179,7 +1174,7 @@ blockquote {
   backdrop-filter: blur(12px);
   color: var(--color-text-main);
   font-size: 1.15rem;
-  line-height: 1.9;
+  line-height: 1.7;
   text-align: center;
   box-shadow:
     0 15px 40px rgba(0, 0, 0, .35),
@@ -1216,7 +1211,7 @@ blockquote {
   display: block;
   margin-top: 18px;
   color: var(--color-text-secondary);
-  font-size: .95rem;
+  font-size: .75rem;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
