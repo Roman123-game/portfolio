@@ -1283,7 +1283,6 @@ blockquote {
   cursor: pointer;
   user-select: none;
   padding: 8px 14px;
-  /* border-radius: 50%; */
   background: rgba(0, 0, 0, 0.3);
   transition: background 0.2s ease, transform 0.2s ease;
   margin: -10px auto;
