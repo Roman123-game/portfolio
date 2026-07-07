@@ -769,7 +769,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 28px;
   text-align: left;
   background: #0B1020;
   border: 1px solid rgba(34, 211, 238, .2);
@@ -788,20 +787,11 @@ h1 {
 
 .flip-card-back strong {
   display: block;
-  margin-bottom: 14px;
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--color-text-main);
 }
 
-.flip-card-back div {
-  margin: 0;
-  padding-left: 18px;
-}
-
-.flip-card-back li::marker {
-  color: var(--color-accent);
-}
 
 .reveal {
   opacity: 0;
