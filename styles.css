@@ -773,8 +773,11 @@ h1 {
   text-align: left;
   background: #0B1020;
   border: 1px solid rgba(34, 211, 238, .2);
+}
+
+.flip-card-back div{
   list-style: none;
-  font-family:   sans-serif;
+  font-family:   'Space Grotesk', 'Inter', sans-serif;;
   font-size: .75rem;
   line-height: 1.8;
   font-weight: 400;
