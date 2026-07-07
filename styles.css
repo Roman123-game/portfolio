@@ -237,11 +237,12 @@ h1 {
   position: absolute;
   inset: 0;
   width: 0%;
-  background: linear-gradient(90deg,
-      var(--color-primary),
-      var(--color-accent));
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--color-primary) 70%, transparent),
+    color-mix(in srgb, var(--color-accent) 70%, transparent)
+  );
   transition: width 1.4s ease-out;
-  filter: blur(2px);
 }
 
 .progress-bar:hover::before {
@@ -732,13 +733,6 @@ h1 {
     0 0 30px rgba(79, 70, 229, .18);
 }
 
-/* .flip-card-front li {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  line-height: 1.4;
-} */
 
 
 .flip-card {
@@ -820,13 +814,13 @@ h1 {
   transform: rotateY(180deg);
 }
 
-/* .embed-responsive,
+.embed-responsive,
 svg,
 embed,
 model-viewer {
   max-width: 100%;
   height: auto;
-} */
+}
 
 model-viewer.dim,
 model-viewer {
