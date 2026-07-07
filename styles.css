@@ -732,24 +732,14 @@ h1 {
     0 0 30px rgba(79, 70, 229, .18);
 }
 
-.flip-card-front li {
+/* .flip-card-front li {
   font-size: 1.4rem;
   font-weight: 700;
   color: white;
   text-align: center;
   line-height: 1.4;
-}
+} */
 
-.flip-card-back {
-  transform: rotateY(180deg);
-}
-
-.flip-card-back li {
-  font-size: .95rem;
-  line-height: 1.8;
-  color: var(--color-text-secondary);
-  text-align: center;
-}
 
 .flip-card {
   transition: .35s;
@@ -783,11 +773,8 @@ h1 {
   text-align: left;
   background: #0B1020;
   border: 1px solid rgba(34, 211, 238, .2);
-}
-
-.flip-card-back li {
   list-style: none;
-  font-family: Inter, sans-serif;
+  font-family:   sans-serif;
   font-size: .75rem;
   line-height: 1.8;
   font-weight: 400;
@@ -804,7 +791,7 @@ h1 {
   color: var(--color-text-main);
 }
 
-.flip-card-back ul {
+.flip-card-back div {
   margin: 0;
   padding-left: 18px;
 }
