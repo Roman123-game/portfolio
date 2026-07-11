@@ -93,8 +93,8 @@ h1 {
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
   animation: typing 2s steps(30, end) forwards;
- 
-  margin-bottom: 12px;
+
+  margin-bottom: 10px;
   text-align: left;
   background-color: #ffffff10;
 
