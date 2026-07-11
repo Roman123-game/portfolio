@@ -84,20 +84,18 @@ h1 {
 }
 
 .section_il {
-  opacity: 0;
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 0.9rem;
   color: var(--color-text-bright);
   border: 1px solid var(--color-border);
   animation: typing 2s steps(30, end) forwards;
-  height: 55px;
   margin-bottom: 12px;
   text-align: left;
   background-color: #ffffff10;
-
+max-width: 400px;
 }
 
 .hr-scroll {
