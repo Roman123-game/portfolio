@@ -84,7 +84,7 @@ h1 {
 }
 
 .section_il {
-  opacity: 0;
+  box-sizing: content-box;
   white-space: nowrap;
   overflow: hidden;
   border-radius: 16px;
