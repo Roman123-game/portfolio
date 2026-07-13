@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
 
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient( var(--color-primary), var(--color-accent),var(--color-text-muted));
+  background: radial-gradient(var(--color-text-muted), var(--color-primary), var(--color-accent));
   border-radius: 12px;
 }
 
@@ -288,10 +288,10 @@ h1 {
   margin: -55px -20px;
 }
 
-/* .degree {
+.degree {
   margin-top: -60px;
   margin-left: 150px;
-} */
+}
 
 .skills {
   margin-top: 0;
