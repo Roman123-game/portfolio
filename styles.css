@@ -108,8 +108,8 @@ h1 {
 
 
 .navbar-brand {
-  font-family: "Monoton", sans-serif;
-  font-size: 22px;
+  font-family:sans-serif;
+  font-size: 32px;
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -195,9 +195,6 @@ h1 {
 }
 
 
-.navbar-brand {
-  font-size: 22px;
-}
 
 .navbar-toggler-icon {
   display: inline-block;
