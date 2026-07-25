@@ -940,11 +940,11 @@ blockquote {
 .arrow {
   position: absolute;
   transform: translateY(-50%);
-  font-size: 42px;
+  font-size: 32px;
   color: var(--color-accent);
   cursor: pointer;
   user-select: none;
-  padding: 8px;
+  padding: 14px 4px;
   background: rgba(0, 0, 0, 0.3);
   transition: background 0.2s ease, transform 0.2s ease;
   margin: -10px auto;
@@ -957,12 +957,12 @@ blockquote {
 
 .left {
   top: 70px;
-  left: -10px;
+  left: 20px;
 }
 
 .right {
   top: 70px;
-  right: -10px;
+  right: 20px;
 }
 
 /* show arrows conditionally */
@@ -1166,7 +1166,7 @@ blockquote {
   content: "”";
   position: absolute;
   bottom: -20px;
-  right: 24px;
+  right: 44px;
   font-size: 4rem;
   line-height: 1;
   color: var(--color-accent);
